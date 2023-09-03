@@ -17,7 +17,7 @@ function CountingMinutes(str) {
 
   const getMinutesFromMidnight = (timeStr) => {
   // 2.create the hourStr and minuteStr by slicing and spliting the given timeStr and using object destructuring method.
-  //2A. example: "1:23am".slice(0, -2).split(":") =====>(1, 23) =====> const [1, 23]
+  //2A. example: "1:23am".slice(0, -2).split(":") =====>(1,23) 
 
   const [hourStr, minuteStr] = timeStr.slice(0, -2).split(":"); 
   // 3.convert the hourStr and minuteStr to integers
