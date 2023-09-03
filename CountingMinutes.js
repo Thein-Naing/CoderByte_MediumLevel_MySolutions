@@ -14,25 +14,26 @@ Output: 1425 */
 
 
 function CountingMinutes(str) {
-  // 1.Split the start and end times from the input string
+  // 1.split the start and end times from the input string
   const [startTime, endTime] = str.split("-");
 
-  // 2.Convert the startTime and endTime to minutes from midnight
+  // 2.convert the startTime and endTime to minutes from each day's midnight.
   const startMinutes = getMinutesFromMidnight(startTime);
   const endMinutes = getMinutesFromMidnight(endTime);
 
-  // 3.Calculate the time difference, make sure it must be + value.
+  // 3.calculate the time difference, make sure it must be + value.
   const diffMinutes = (endMinutes - startMinutes + (24 * 60)) % ( 24 * 60); //3A. ( 24 * 60 ) minutes from yesterday to today.
 
-  // 4.Return the time difference in minutes
+  // 4.return the diffMinutes.
   return diffMinutes;
 }
 
 function getMinutesFromMidnight = (timeStr) => {
-  // 5.Split the hours and minutes from the time string
+  // 5.split the hours and minutes from the time string
   const [hourStr, minuteStr] = timeStr.slice(0, -2).split(":");
 
-  // 6.Convert the hours and minutes to integers
+  // 6.convert the hours and minutes to integers
+  // 6A .use parseInt method by calling hourStr and minuteStr.
   const hour = parseInt(hourStr);
   const minute = parseInt(minuteStr);
 
