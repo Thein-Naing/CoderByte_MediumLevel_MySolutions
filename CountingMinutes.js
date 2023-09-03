@@ -38,7 +38,7 @@ function getMinutesFromMidnight = (timeStr) => {
   const hour = parseInt(hourStr);
   const minute = parseInt(minuteStr);
 
-  // 7.check if the time is in the PM
+  // 7.check if the timeStr is in the PM
   const isPM = timeStr.slice(-2) === "pm";
 
   // 8.convert the time to minutes from midnight
