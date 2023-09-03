@@ -22,7 +22,8 @@ function CountingMinutes(str) {
   const endMinutes = getMinutesFromMidnight(endTime);
 
   // 3.calculate the time difference, make sure it must be + value.
-  const diffMinutes = (endMinutes - startMinutes + (24 * 60)) % ( 24 * 60); //3A. ( 24 * 60 ) minutes from yesterday to today.
+  // 3A. we needd to add ( 24 * 60 ) minutes from yesterday to today and find remainder with divided by ( 24 * 60).
+  const diffMinutes = (endMinutes - startMinutes + (24 * 60)) % ( 24 * 60); 
 
   // 4.return the diffMinutes.
   return diffMinutes;
