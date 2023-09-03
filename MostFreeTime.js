@@ -17,13 +17,13 @@ const MostFreeTime = (strArr) => {
  
   // 2.create an empty array to store the minutes of each event
   let minArr = [];
-  // create a variable to keep track of the longest free time: initailly zero
+  // create longest free time: initailly zero
   let longest = 0;
   
-  // 3.function to convert a time string to minutes
+  // 3. create a function to convert a time string to minutes
   const  ParseTime = (time) => {
       let minutes = 0 
-   // 3A. use string.mtach(regex) method
+   // 3A. use string.match(regex) method
       if(time.match(/pm/i)) {  //The regular expression includes the i flag so that upper/lower case differences will be ignored.
           minutes += 12 * 60  // if time is pm times =====> minutes = minutes + ( 12 * 6)
       }
@@ -31,7 +31,7 @@ const MostFreeTime = (strArr) => {
       if(time.split(':')[0] !== '12') { // 11:59AM.split(:)[0] and here [0] = 11  time =[11 59]
          minutes += time.split(':')[0] * 60  // so  minutes = 11 * 60
       }  
-      // 5.add the minutes by using string.mtach(regex) method
+      // 5.add the minutes by using string.match(regex) method
       minutes += Number(time.split(':')[1].match(/[0-9][0-9]/)[0]) // here [1] = 59 of time[11 59]
 
     //5A . return minutes.
@@ -41,11 +41,11 @@ const MostFreeTime = (strArr) => {
   
   // 6.loop through the array of events and convert each time to minutes and add to minutes array
   for(let i = 0; i < strArr.length; i++) {
-       time1 = strArr[i].split('-')[0] //"09:00AM-10:00AM"
-       time2 = strArr[i].split('-')[1] // "10:30AM-12:00PM"
+       timeA = strArr[i].split('-')[0] //"09:00AM-10:00AM"
+       timeB = strArr[i].split('-')[1] // "10:30AM-12:00PM"
     
     // 6A. add converted minutes to minArr.
-      minArr.push([ParseTime(time1), ParseTime(time2)])
+      minArr.push([ParseTime(timeA), ParseTime(timeB)])
   }    
   
   // 7.sort the array of minutes in ascending order & you can skip this step if you want.
