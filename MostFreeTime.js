@@ -31,7 +31,7 @@ const MostFreeTime = (strArr) => {
       if(time.split(':')[0] !== '12') { // 11:59AM.split(:)[0] and here [0] = 11  time =[11 59]
          minutes += time.split(':')[0] * 60  // so  minutes = 11 * 60
       }  
-      // 5.add the minutes by using string.match(regex) method
+      // 5.convert the minutes to interger and add by using string.match(regex) method
       minutes += Number(time.split(':')[1].match(/[0-9][0-9]/)[0]) // here [1] = 59 of time[11 59]
 
     //5A . return minutes.
