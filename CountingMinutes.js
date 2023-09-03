@@ -30,7 +30,7 @@ function CountingMinutes(str) {
 }
 
 function getMinutesFromMidnight = (timeStr) => {
-  // 5.split the hours and minutes from the time string
+  // 5.create the hours and minutes by slicing and spliting the given timeStr and using object destructuring method.
   const [hourStr, minuteStr] = timeStr.slice(0, -2).split(":");
 
   // 6.convert the hours and minutes to integers
