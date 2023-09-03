@@ -27,7 +27,7 @@ function CountingMinutes(str) {
   const minute = parseInt(minuteStr);
 
   // 4.check if the timeStr is in the PM
-  const isPM = timeStr.slice(-2) === "pm";
+  const isPM = timeStr.slice(-2) === "pm";  //4A. meaning : position of slice(-2) === "pm" word.
 
   // 5.if time is in tne PM , then convert the time to minutes from midnight
   const totalMinutes = hour * 60 + minute;
