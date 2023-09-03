@@ -33,14 +33,14 @@ function getMinutesFromMidnight = (timeStr) => {
   const [hourStr, minuteStr] = timeStr.slice(0, -2).split(":");
 
   // 6.convert the hours and minutes to integers
-  // 6A .use parseInt method by calling hourStr and minuteStr.
+  // 6A. use parseInt method by calling hourStr and minuteStr.
   const hour = parseInt(hourStr);
   const minute = parseInt(minuteStr);
 
-  // 7.Determine if the time is in the PM
+  // 7.check if the time is in the PM
   const isPM = timeStr.slice(-2) === "pm";
 
-  // 8.Convert the time to minutes from midnight
+  // 8.convert the time to minutes from midnight
   const totalMinutes = hour * 60 + minute;
   return isPM ? totalMinutes + ( 12 * 60 ) : totalMinutes;
 }
