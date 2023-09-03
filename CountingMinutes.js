@@ -41,7 +41,7 @@ function getMinutesFromMidnight = (timeStr) => {
   // 7.check if the timeStr is in the PM
   const isPM = timeStr.slice(-2) === "pm";
 
-  // 8.convert the time to minutes from midnight
+  // 8.if time is in tne PM , then convert the time to minutes from midnight
   const totalMinutes = hour * 60 + minute;
   return isPM ? totalMinutes + ( 12 * 60 ) : totalMinutes;
 }
