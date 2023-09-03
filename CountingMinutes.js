@@ -11,40 +11,39 @@ Input: "1:23am-1:08am"
 Output: 1425 */
 
 
-
-
 function CountingMinutes(str) {
   // 1. Create the startTime and endTime by spliting the given str and using object destructuring method.
   const [startTime, endTime] = str.split("-"); // e.g. Input:"12:30pm-12:00am" =====> const[12:30pm, 12:00am].
 
-  // 2.convert the startTime and endTime to minutes from each day's midnight.
-  const startMinutes = getMinutesFromMidnight(startTime);
-  const endMinutes = getMinutesFromMidnight(endTime);
-
-  // 3.calculate the time difference, make sure it must be + value.
-  // 3A. we needd to add ( 24 * 60 ) minutes from yesterday to today and find remainder with divided by ( 24 * 60).
-  const diffMinutes = (endMinutes - startMinutes + (24 * 60)) % ( 24 * 60); 
-
-  // 4.return the diffMinutes.
-  return diffMinutes;
-}
-
-function getMinutesFromMidnight = (timeStr) => {
-  // 5.create the hourStr and minuteStr by slicing and spliting the given timeStr and using object destructuring method.
+  const getMinutesFromMidnight = (timeStr) => {
+  // 2.create the hourStr and minuteStr by slicing and spliting the given timeStr and using object destructuring method.
   const [hourStr, minuteStr] = timeStr.slice(0, -2).split(":");
 
-  // 6.convert the hourStr and minuteStr to integers
-  // 6A. use parseInt method by calling hourStr and minuteStr.
+  // 3.convert the hourStr and minuteStr to integers
+  // 3A. use parseInt method by calling hourStr and minuteStr.
   const hour = parseInt(hourStr);
   const minute = parseInt(minuteStr);
 
-  // 7.check if the timeStr is in the PM
+  // 4.check if the timeStr is in the PM
   const isPM = timeStr.slice(-2) === "pm";
 
-  // 8.if time is in tne PM , then convert the time to minutes from midnight
+  // 5.if time is in tne PM , then convert the time to minutes from midnight
   const totalMinutes = hour * 60 + minute;
   return isPM ? totalMinutes + ( 12 * 60 ) : totalMinutes;
 }
+   
+    // 6.convert the startTime and endTime to minutes from each day's midnight.
+  const startMinutes = getMinutesFromMidnight(startTime);
+  const endMinutes = getMinutesFromMidnight(endTime);
+
+  // 7.calculate the time difference, make sure it must be + value.
+  // 7A. we needd to add ( 24 * 60 ) minutes from yesterday to today and find remainder with divided by ( 24 * 60).
+  const diffMinutes = (endMinutes - startMinutes + (24 * 60)) % ( 24 * 60); 
+
+  // 8.return the diffMinutes.
+  return diffMinutes;
+}
+
    
 // keep this function call here 
 console.log(CountingMinutes(readline()));
