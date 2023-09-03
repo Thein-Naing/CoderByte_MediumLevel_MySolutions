@@ -15,6 +15,7 @@ function CountingMinutes(str) {
   // 1. Create the startTime and endTime by spliting the given str and using object destructuring method.
   const [startTime, endTime] = str.split("-"); // e.g. Input:"12:30pm-12:00am" =====> const[12:30pm, 12:00am].
 
+  //1A. create getMinutesFromMidnight function to convert startTime and endTime to minutes from each day's midnight.
   const getMinutesFromMidnight = (timeStr) => {
   // 2.create the hourStr and minuteStr by slicing and spliting the given timeStr and using object destructuring method.
   //2A. example: "1:23am".slice(0, -2).split(":") =====>(1,23) 
