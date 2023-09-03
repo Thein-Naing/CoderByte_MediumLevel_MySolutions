@@ -25,7 +25,7 @@ const MostFreeTime = (strArr) => {
       let minutes = 0 
    // 3A. use string.match(regex) method
       if(time.match(/pm/i)) {  //The regular expression includes the i flag so that upper/lower case differences will be ignored.
-          minutes += 12 * 60  // if time is pm times =====> minutes = minutes + ( 12 * 6)
+          minutes += 12 * 60  // if time is pm times =====> minutes = minutes + ( 12 * 60)
       }
       // 4.add the hours converted to minutes
       if(time.split(':')[0] !== '12') { // 11:59AM.split(:)[0] and here [0] = 11  time =[11 59]
