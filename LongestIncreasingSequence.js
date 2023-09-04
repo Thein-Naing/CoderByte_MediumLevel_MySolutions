@@ -12,7 +12,7 @@ your program should return 3 because that is the length of the longest increasin
 
 let arr = [10, 22, 9, 33, 21, 50, 41, 60];
 let i = arr.length;
-let finalLIS = []; /*1.  LIS of full array of size n is store here ===> [Length of LIS ending with element arr[i-1],
+let finalLIS = []; /*1.  LIS of full array of size i is store here ===> [Length of LIS ending with element arr[i-1],
                          Length of LIS ending with an element before arr[i-1], e.t.c ]*/
 const lisI = (arr, i) => {
   //2. Initialize LIS values for all indexes
