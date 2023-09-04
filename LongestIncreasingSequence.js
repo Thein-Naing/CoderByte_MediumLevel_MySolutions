@@ -1,4 +1,5 @@
-//. This is my naive solution but it is not formatted as coderbyte.
+//. This is my naive solution but it is not formatted as coderbyte. below my code you can find the other solution from coderbyte.
+
 
 /*Longest Increasing Sequence
 Have the function LongestIncreasingSequence(arr) take the array of positive integers stored in arr and 
@@ -39,5 +40,30 @@ const lisJ = (arr, i) => {
 }
 
 console.log(lisJ(arr, i));
+
 //9. 5
 
+
+// ### other solution: clean and clear code..
+
+function LongestIncreasingSequence(arr) { 
+let possible =[];
+let max = Math.max(...arr) +1;
+let sorted = arr.slice().sort();
+for(let i= 0; i< arr.length;i++){
+    let lis = [];
+    let start = arr[i];
+    lis.push(start);
+ for(let j = i+1;j < arr.length;j++){
+     if(start < arr[j]){
+         lis.push(arr[j]);
+         start = arr[j];
+     }
+ }
+     possible.push(lis);
+ }
+  return possible.sort((a,b) => b.length - a.length)[0].length;       
+}
+   
+// keep this function call here 
+LongestIncreasingSequence(readline());
