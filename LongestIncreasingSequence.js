@@ -30,7 +30,7 @@ const lisI = (arr, i) => {
   // 6.Return length of LIS ending with arr[i-1]
   return maxLisLength;
 }
-// 7. The update function for lisI()
+// 7. Then update function lisI() with lisJ function.
 const lisJ = (arr, i) => {
   // 8. The function lisI() stores its result in finalLis.so add the function lisI() to finalLIS by using push
   finalLIS.push(lisI(arr, i));
