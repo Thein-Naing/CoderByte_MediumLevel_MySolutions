@@ -5,3 +5,5 @@ This is just information sharing for whom visited to my github page.`
 
 `1.CountingMinutes`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/99b215ec-55b4-4bdf-8483-810ece9f450b)
+`2.MostFreeTime`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/fcedf494-8604-426f-953f-0311e455000d)
