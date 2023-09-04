@@ -1,4 +1,4 @@
-` //. This is my naive solution but it is not formatted as coderbyte`
+//. This is my naive solution but it is not formatted as coderbyte.
 let arr = [10, 22, 9, 33, 21, 50, 41, 60];
 let i = arr.length;
 let finalLIS = []; /*1.  LIS of full array of size n is store here ===> [Length of LIS ending with element arr[i-1],
