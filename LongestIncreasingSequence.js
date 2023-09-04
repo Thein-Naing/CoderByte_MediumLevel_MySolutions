@@ -39,5 +39,5 @@ const lisJ = (arr, i) => {
 }
 
 console.log(lisJ(arr, i));
-
+//9. 5
 
