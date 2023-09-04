@@ -44,7 +44,7 @@ console.log(lisJ(arr, i));
 //9. 5
 
 
-// ### other solution: clean and clear code..
+// ### other solution: clean and clear code.(not mine)
 
 function LongestIncreasingSequence(arr) { 
 let possible =[];
