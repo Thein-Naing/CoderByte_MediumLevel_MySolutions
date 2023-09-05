@@ -42,8 +42,8 @@ const MostFreeTime = (strArr) => {
   // 6.loop through the array of events and convert each time to minutes by calling with ParseTime function.
   for(let i = 0; i < strArr.length; i++) {
    //6A. This is minutes for "09:10AM-09:50AM" event. Eventually we will calculate minutes of all events.
-       timeA = ParseTime(strArr[i].split('-')[0]); //"09:10AM-10:50AM" console.log(timeA) === 550 for 09:00AM
-       timeB = ParseTime(strArr[i].split('-')[1]); // "09:10AM-10:50PM" console.log(timeB) === 590 for 09:50AM
+       timeA = ParseTime(strArr[i].split('-')[0]); //"09:10AM-" console.log(timeA) === 550 for 09:00AM
+       timeB = ParseTime(strArr[i].split('-')[1]); // "-09:50AM" console.log(timeB) === 590 for 09:50AM
 
     // 6B. add converted minutes arrays into minArr.
       minArr.push([timeA, timeB]);
