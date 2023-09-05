@@ -45,7 +45,7 @@ const MostFreeTime = (strArr) => {
        timeA = ParseTime(strArr[i].split('-')[0]); //"09:10AM-" console.log(timeA) === 550 for 09:00AM
        timeB = ParseTime(strArr[i].split('-')[1]); // "-09:50AM" console.log(timeB) === 590 for 09:50AM
 
-    // 6B. add converted minutes arrays into minArr.
+    // 6B. add converted minutes elements into minArr.
       minArr.push([timeA, timeB]);
   }    
   
