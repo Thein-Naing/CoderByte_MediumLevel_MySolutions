@@ -23,7 +23,7 @@ const MostFreeTime = (strArr) => {
   // 3. create a function to convert a time string to minutes
   const  ParseTime = (time) => {
       let minutes = 0 
-   // 3A. use string.match(regex) method  to add the jours (of PM time).
+   // 3A. use string.match(regex) method  to add the hours (of PM time).
       if(time.match(/pm/i)) {  //The regular expression includes the i flag so that upper/lower case differences will be ignored.
           minutes += 12 * 60  // if time is pm times =====> minutes = minutes + ( 12 * 60)
       }
@@ -39,13 +39,13 @@ const MostFreeTime = (strArr) => {
   }
 
   
-  // 6.loop through the array of events and convert each time to minutes.
+  // 6.loop through the array of events and convert each time to minutes by calling with ParseTime function.
   for(let i = 0; i < strArr.length; i++) {
-       timeA = strArr[i].split('-')[0] //"09:00AM-10:00AM" 
-       timeB = strArr[i].split('-')[1] // "10:30AM-12:00PM"
+       timeA = ParseTime(strArr[i].split('-')[0]); //"09:00AM-10:00AM" 
+       timeB = ParseTime(strArr[i].split('-')[1]); // "10:30AM-12:00PM"
     
-    // 6A. convert spilited time arrays to minutes by calling with ParseTime function and add to minArr.
-      minArr.push([ParseTime(timeA), ParseTime(timeB)])
+    // 6A. add converted minutes arrays into minArr.
+      minArr.push([timeA, timeB]);
   }    
   
   // 7.sort the array of minutes in ascending order & you can skip this step if you want.
@@ -60,7 +60,7 @@ const MostFreeTime = (strArr) => {
       }
   }
   
-  // 9.convert the longest free time to hours and minutes using while loop.
+  // 9.convert the longest free time (minutes) to hours and minutes using while loop.
   let hours = 0
   while(longest >= 60) {
       longest -= 60;
