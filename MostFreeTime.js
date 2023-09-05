@@ -49,7 +49,7 @@ const MostFreeTime = (strArr) => {
       minArr.push([timeA, timeB]);
   }    
   
-  // 7.sort the array of minutes in ascending order & you can skip this step if you want.
+  // 7.sort the array of minutes in ascending order & can skip this step if you want.
   minArr.sort(function(a, b) {
       return a[0] - b[0]
   })
