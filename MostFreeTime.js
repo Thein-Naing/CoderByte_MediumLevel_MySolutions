@@ -82,4 +82,4 @@ const MostFreeTime = (strArr) => {
 // 11.keep this function call here 
 console.log(MostFreeTime(strArr));
 
-//12. 00:30
+//12. 01:30
