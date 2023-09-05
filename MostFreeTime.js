@@ -11,7 +11,7 @@ The input will contain at least 3 events and the events may be out of order.*/
   
     
   //1. declare strArr for testing purpose or can skip this step if it is given.
-let  strArr = ["12:15PM-02:00PM", "09:00AM-10:00AM", "10:30AM-12:00PM" ];
+let  strArr = ["10:00AM-12:30PM","02:00PM-02:45PM","09:10AM-09:50AM" ];
 
 const MostFreeTime = (strArr) => { 
  
@@ -41,10 +41,11 @@ const MostFreeTime = (strArr) => {
   
   // 6.loop through the array of events and convert each time to minutes by calling with ParseTime function.
   for(let i = 0; i < strArr.length; i++) {
-       timeA = ParseTime(strArr[i].split('-')[0]); //"09:00AM-10:00AM" 
-       timeB = ParseTime(strArr[i].split('-')[1]); // "10:30AM-12:00PM"
-    
-    // 6A. add converted minutes arrays into minArr.
+   //6A. This is minutes for "09:10AM-09:50AM" event. Eventually we will calculate minutes of all events.
+       timeA = ParseTime(strArr[i].split('-')[0]); //"09:10AM-10:50AM" console.log(timeA) === 550 for 09:00AM
+       timeB = ParseTime(strArr[i].split('-')[1]); // "09:10AM-10:50PM" console.log(timeB) === 590 for 09:50AM
+
+    // 6B. add converted minutes arrays into minArr.
       minArr.push([timeA, timeB]);
   }    
   
