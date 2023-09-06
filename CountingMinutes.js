@@ -23,14 +23,14 @@ function CountingMinutes(str) {
   const [hourStr, minuteStr] = timeStr.slice(0, -2).split(":"); 
     
   // 3.convert the hourStr and minuteStr to integers
-  // 3A. use parseInt method by calling hourStr and minuteStr.
+  // 3A. use calling parseInt method to hourStr and minuteStr. take note that parseInt method parses a value as a string and returns the first integer.
   const hour = parseInt(hourStr);
   const minute = parseInt(minuteStr);
 
   // 4.check if the timeStr is in the PM
-  const isPM = timeStr.slice(-2) === "pm";  //4A. meaning : position of slice(-2) === "pm" word.
+  const isPM = timeStr.slice(-2) === "pm";  //4A. meaning: position of slice(-2) === at "pm" word.
 
-  // 5.if time is in tne PM , then convert the time to minutes from midnight
+  // 5.if time is in tne PM , then convert the time to minutes from midnight and return with ternary operator
   const totalMinutes = hour * 60 + minute;
   return isPM ? totalMinutes + ( 12 * 60 ) : totalMinutes;
 }
