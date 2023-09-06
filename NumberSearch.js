@@ -28,8 +28,7 @@ function NumberSearch(str) {
     //3B. exclude spaces from the sum; meaning: char !== " ". 
     
         if (/^\d$/.test(char) && char !== " ") {   
-
-      sum += parseInt(char);  //3C. sum = sum + parseInt(char)
+      sum += parseInt(char);  /* 3C. sum = sum + parseInt(char) and the parseInt method parses a value as a string and returns the first integer.*/
     }
     
     // 4. if the character is a letter, then increment the letters. use regex method: /[a-zA-Z]/.test(char) method.
