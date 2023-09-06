@@ -15,9 +15,10 @@ function NumberSearch(str) {
   let sum = 0;
   let letters = 0;
   
-  //2. loop through each character in the given string.
+  //2. loop through each character in the given string. use charAT() method to define char.
   for (let i = 0; i < str.length; i++) {
-     char = str.charAt(i);
+     let char = str.charAt(i); /* 2A. The charAt() method returns the character at a specified index (position) in a string.
+                                       The index of the first character is 0, the second 1, ...*/
     
     /* 3. use regex method: /^\d$/.test(char) method.
     ...the forward slashes / / mark the start and end of the regular expression.
