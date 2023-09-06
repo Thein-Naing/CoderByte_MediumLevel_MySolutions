@@ -45,4 +45,4 @@ return Math.round(sum / letters);
  }
    
 // keep this function call here 
-console.log(NumberSearch(readline()));
+console.log(NumberSearch(readline()));  // given "3Hello9 9 9" =====> 6.
