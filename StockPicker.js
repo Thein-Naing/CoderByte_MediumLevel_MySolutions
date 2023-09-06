@@ -31,7 +31,9 @@ function StockPicker(arr) {
   //4. define soldPrice at arr index "j"
         let soldPrice = arr[j];
 
-  //5. calculate profit.
+  /*5. calculate profit assuming soldPrice is bigger than boughtPrice. 
+       use OR operator because of calculating maximum profit. */
+            
         let profit = arr[j] - arr[i];
         if ( maxProfit === -1 || profit > maxProfit) {
            maxProfit = profit;
