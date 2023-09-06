@@ -24,7 +24,7 @@ function NumberSearch(str) {
     ...the forward slashes / / mark the start and end of the regular expression.
     ...the caret ^ matches the beginning of the input and the dollar sign $ matches the end of the input.
     ...the \d character matches any digit from 0 to 9. */
-    //3A.if the character we pass to the function is a number, then convert it to integer and add it to the sum.
+    //3A.if the character which we pass to the function is a number, then convert it to integer and add it to the sum.
     //3B. exclude spaces from the sum; meaning: char !== " ". 
     //3C. the parseInt method parses a value as a string and returns the first integer.*/
     
