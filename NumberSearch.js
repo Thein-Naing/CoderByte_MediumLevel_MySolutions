@@ -26,9 +26,10 @@ function NumberSearch(str) {
     ...the \d character matches any digit from 0 to 9. */
     //3A.if the character we pass to the function is a number, then convert it to integer and add it to the sum.
     //3B. exclude spaces from the sum; meaning: char !== " ". 
+    //3C. the parseInt method parses a value as a string and returns the first integer.*/
     
         if (/^\d$/.test(char) && char !== " ") {   
-      sum += parseInt(char);  /* 3C. sum = sum + parseInt(char) and the parseInt method parses a value as a string and returns the first integer.*/
+      sum += parseInt(char);  /* 3D. sum = sum + parseInt(char).
     }
     
     // 4. if the character is a letter, then increment the letters. use regex method: /[a-zA-Z]/.test(char) method.
