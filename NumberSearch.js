@@ -11,7 +11,7 @@ Only single digit numbers separated by spaces will be used throughout the whole 
 
 function NumberSearch(str) { 
 
-// 1.defiine variables for total sum and letters count and initially zero value for both.
+// 1.define sum for total and letters for char counts and assign zero value for both initially.
   let sum = 0;
   let letters = 0;
   
