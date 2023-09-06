@@ -29,7 +29,7 @@ function NumberSearch(str) {
     //3C. the parseInt method parses a value as a string and returns the first integer.*/
     
         if (/^\d$/.test(char) && char !== " ") {   
-      sum += parseInt(char);  /* 3D. sum = sum + parseInt(char).
+      sum += parseInt(char);  // 3D. sum = sum + parseInt(char).
     }
     
     // 4. if the character is a letter, then increment the letters. use regex method: /[a-zA-Z]/.test(char) method.
