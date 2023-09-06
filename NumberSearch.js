@@ -32,7 +32,7 @@ function NumberSearch(str) {
       sum += parseInt(char);  //3C. sum = sum + parseInt(char)
     }
     
-    // 4. if the character is a letter, then increment the letters.
+    // 4. if the character is a letter, then increment the letters. use regex method: /[a-zA-Z]/.test(char) method.
     
     if (/[a-zA-Z]/.test(char)) {
       letters++;  //4A. letters + 1;
