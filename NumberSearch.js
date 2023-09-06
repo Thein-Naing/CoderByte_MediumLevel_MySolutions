@@ -15,27 +15,33 @@ function NumberSearch(str) {
   let sum = 0;
   let letters = 0;
   
-  //2. loop through each character in the given string
+  //2. loop through each character in the given string.
   for (let i = 0; i < str.length; i++) {
      char = str.charAt(i);
     
-    // 3.if the character is a number, convert it to integer and add it to the sum. 
-    if (/^\d$/.test(char) && char !== " ") {   //3A. exclude spaces from the sum
+    /* 3. use regex method: /^\d$/.test(char) method.
+    ...the forward slashes / / mark the start and end of the regular expression.
+    ...the caret ^ matches the beginning of the input and the dollar sign $ matches the end of the input.
+    ...the \d character matches any digit from 0 to 9. */
+    //3A.if the character we pass to the function is a number, then convert it to integer and add it to the sum.
+    //3B. exclude spaces from the sum; meaning: char !== " ". 
+    
+        if (/^\d$/.test(char) && char !== " ") {   
 
-      sum += parseInt(char);  //3B. sum = sum + parseInt(char)
+      sum += parseInt(char);  //3C. sum = sum + parseInt(char)
     }
     
-    // 4. if the character is a letter, increment the letters
+    // 4. if the character is a letter, then increment the letters.
+    
     if (/[a-zA-Z]/.test(char)) {
       letters++;  //4A. letters + 1;
     }
   }
   
-  // 5. dividing the sum  by the letters and round the result and return it.
+  // 5. dividing the sum by the letters and round the result and return it.
  
 return Math.round(sum / letters);
   
-
  }
    
 // keep this function call here 
