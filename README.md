@@ -14,6 +14,10 @@ This is just information sharing for whom visited to my github page.`
 `4. Number Search`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/8be4b1e5-c740-4998-ab4f-628210b55abd)
 
+`5. Stock Picker`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/168a1db4-3c4c-415d-b502-31524d79b6cb)
+
+
 
 
 
