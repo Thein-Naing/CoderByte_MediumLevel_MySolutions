@@ -15,16 +15,18 @@ let  strArr = ["10:00AM-12:30PM","02:00PM-02:45PM","09:10AM-09:50AM" ];
 
 const MostFreeTime = (strArr) => { 
  
-  // 2.create an empty array to store the minutes of each event
+  // 2.initialize an empty array to store the minutes of each event.
   let minArr = [];
-  // create longest free time: initailly zero
+ 
+  // 2A.initial state of longest free time shall be "zero".
   let longest = 0;
+  let minutes = 0 
   
   // 3. create a function to convert a time string to minutes
   const  ParseTime = (time) => {
-      let minutes = 0 
+      // let minutes = 0 
    // 3A. use string.match(regex) method  to add the hours (of PM time).
-      if(time.match(/pm/i)) {  //The regular expression includes the i flag so that upper/lower case differences will be ignored.
+      if(time.match(/pm/gi)) {  //The regular expression includes g flag for global search and i flag for case in which upper/lower case differences will be ignored.
           minutes += 12 * 60  // if time is pm times =====> minutes = minutes + ( 12 * 60)
       }
       // 4.add the hours (of AM time) and converted to minutes
@@ -38,18 +40,17 @@ const MostFreeTime = (strArr) => {
       return minutes
   }
 
-  
-  // 6.loop through the array of events and convert each time to minutes by calling with ParseTime function.
+    // 6.loop through the array of events and convert each time to minutes by calling with ParseTime function. 
   for(let i = 0; i < strArr.length; i++) {
-   //6A. This is minutes for "09:10AM-09:50AM" event. Eventually it will calculate minutes of all events.
+   
+   //6A. This is minutes for "09:10AM-09:50AM" event. Eventually it will calculate minutes of all events.   
        timeA = ParseTime(strArr[i].split('-')[0]); //"09:10AM-" console.log(timeA) === 550 for 09:10AM
        timeB = ParseTime(strArr[i].split('-')[1]); // "-09:50AM" console.log(timeB) === 590 for 09:50AM
 
-    // 6B. add converted minutes elements into minArr.
+    // 6B. add converted minutes elements into minArr by using arr.push method.
       minArr.push([timeA, timeB]);
   }    
-  
-  // 7.sort the array of minutes in ascending order & can skip this step if you want.
+    // 7.sort the array of minutes in ascending order & can skip this step if you want.
   minArr.sort(function(a, b) {
       return a[0] - b[0]
   })
@@ -65,10 +66,10 @@ const MostFreeTime = (strArr) => {
   let hours = 0
   while(longest >= 60) {
       longest -= 60;
-      hours ++
+      hours += 1;
   }
   
-  // 10.add a leading zero for (single-digit) minutes & (single-digit) hours
+  // 10.add a heading zero for (single-digit) minutes & (single-digit) hours
   if(hours.toString().length === 1) {
       hours = "0" + hours   //01:10
   }
