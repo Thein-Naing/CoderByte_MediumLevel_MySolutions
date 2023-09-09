@@ -17,7 +17,7 @@ let isPrime = false;
 2C. prime number must be positive value.
 
 //3. so we will start from num > 1  and loop through starting from 2. 
- and we will check if remainder === 0 then it is not prine number */
+ and we will check if remainder === 0 then it is not prime number */
 
  if (num > 1) {  
     for (let i = 2; i < num; i++) {
