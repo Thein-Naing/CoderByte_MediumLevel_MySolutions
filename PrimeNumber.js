@@ -10,7 +10,7 @@ let isPrime = false;
 2C. prime number must be positive value.
 
 //3. so we will start from num > 1  and loop through starting from 2. 
- and we will check remainder === 0 then it is not prine number */
+ and we will check if remainder === 0 then it is not prine number */
 
  if (num > 1) {  
     for (let i = 2; i < num; i++) {
@@ -19,12 +19,11 @@ let isPrime = false;
         }
     }
 
-//4. otherwuse return isPrime  with ternary operator.
+//4.  then return isPrime with ternary operator for other numbers..
  return  isPrime ? false : true;
          
+  }
 }
-
-
    
 // keep this function call here 
 console.log(PrimeTime(readline()));
