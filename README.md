@@ -4,6 +4,8 @@
 This is just information sharing for whom visited to my github page.`
 
 `2.MostFreeTime`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/4ab0376a-486b-423d-b114-0aebff6e20d9)
+
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/fcedf494-8604-426f-953f-0311e455000d)
 `3.LongestIncreasingSequence : this is my naive answer from interview. not as format as coderbyte.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9e859159-e108-451d-b3f0-cccaf37fff7f)
