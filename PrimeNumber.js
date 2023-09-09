@@ -26,7 +26,7 @@ let isPrime = false;
         }
     }
 
-//4.  then return isPrime with ternary operator for other numbers..
+//4.  then return isPrime with ternary operator for other numbers.
  return  isPrime ? false : true;
          
   }
