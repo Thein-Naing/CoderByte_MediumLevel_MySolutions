@@ -17,8 +17,14 @@ This is just information sharing for whom visited to my github page.`
 `5. Stock Picker`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/168a1db4-3c4c-415d-b502-31524d79b6cb)
 
-`Prime Number`
+`6.Prime Number`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/15341107-fec9-44f9-a3b3-ce3c1c41decf)
+
+`7. Array Addition`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/cf9f3ac1-f967-4cb1-a7ba-0385443e9ab2)
+
+
+
 
 
 
