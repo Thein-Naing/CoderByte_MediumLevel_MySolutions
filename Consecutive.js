@@ -20,7 +20,7 @@ function Consecutive(arr) {
   // 3. then define first and last integers of sorted array.
   
    first = sortedArr[0];
-   last = sortedArr[sortedArr.length - 1];  /*3A. meaning: e.g [1,2,3,4,5]  last = 5 === [][5-1] = [][4] ===  5 */
+   last = sortedArr[sortedArr.length - 1];  /*3A. meaning: e.g [1,2,3,4,5]  last = 5 === [1,2,3,4,5][5-1] = [1,2,3,4,5][4] ===  5 */
 
 /* 4. we have to check each possible sequence of integers 
 from the start to last using for loop. */
