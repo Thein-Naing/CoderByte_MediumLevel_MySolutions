@@ -7,7 +7,7 @@ Output: 23
 Input: 100
 Output: 541
 Tags
-math fundamentalsprime numbers */
+math fundamentals prime numbers */
 
 function PrimeMover(num) { 
 
