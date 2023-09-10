@@ -46,8 +46,8 @@ e.g. [3,5,7,9,11,13,17,19,23] ===> 9th position of prime number is 23. (num = 9 
 
     4A.then check whether the n is a prime number or not by calling isPrime helper function.
 
-    4B.if this condition is true then increment the value of count by 1.
-  otherwise increment the value of n by 1. */
+    4B.if this condition is true then increment the value of count by 1, increment the value of n by 1. 
+       otherwise update n by decrementing the value of n by 1 and return it */
   
     while (count < num ) { // initially count = 0 and so count < num;
      if (isPrime(n)) {
