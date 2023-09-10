@@ -37,7 +37,7 @@ function PrimeMover(num) {
         return false; 
      }
    }
-   return true; // if iterate over all(n) & this number will be prime if it was not divisible by any numbers(i).
+   return true; // if iterate over all(n) & it n will be prime if it was not divisible by any number(i).
   }
   
 /*  4.run while loop until the value of count is less than num. 
