@@ -33,11 +33,11 @@ function PrimeMover(num) {
 
   const isPrime = (n) => {  
    for (let i = 2; i <= Math.sqrt(n); i++) { 
-     if (n % i === 0) {
+     if (n % i === 0) {  // here n =2 and i =2 
         return false; 
      }
    }
-   return true; // if iterate over all(n) and this number will be prime if it was not divisible by any numbers.
+   return true; // if iterate over all(n) & this number will be prime if it was not divisible by any numbers(i).
   }
   
 /*  4.run while loop until the value of count is less than num. 
@@ -51,12 +51,12 @@ e.g. [3,5,7,9,11,13,17,19,23] ===> 9th position of prime number is 23. (num = 9 
   
     while (count < num ) { // initially count = 0 and so count < num;
      if (isPrime(n)) {
-      count++ // update count (if n was not divisible by any numbers so increase the count by 1)
+      count++ // update count(since isPrime is true) then increase the count by 1).
      }
-     n++; // update prime number(since n was not divisible by any numbers so increase the n by 1)
+     n++; // update prime number(since n was not divisible by any numbers(i) so increase the n by 1)
    }
    
-  //5. if above all conditions are not met, then update prime number and return it.
+  //5. otherwisw update prime number by decreasing the n by 1 and return it.
    return n - 1; // 
   }
   
