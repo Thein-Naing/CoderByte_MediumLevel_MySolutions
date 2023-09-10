@@ -25,16 +25,14 @@ function PrimeMover(num) {
  let count = 0; 
  let n = 2;  
 
-/*2. define a helper function to check that the number is prime or not and 
-  pass prime number(n) as parameter */  
-
-  /*3.run for loop  until the Math.sqrt(n). 
+/*2. define a helper function to check that the number is prime or not and pass prime number(n) as parameter */  
+  
+/*3.run for loop  until the Math.sqrt(n). non-prime number will definitely be less than or equal to sqrt(n).
   3A.inside this loop check another condition: if the n is divided 
-  by the current number and the remainder is zero 
-  then return false. otherwise return true.   */
+  by the current number and the remainder is zero then return false. otherwise return true.  */
 
   const isPrime = (n) => {  
-   for (let i = 2; i <= Math.sqrt(n); i++) { //3A. non-prime number will definitely be less than or equal to sqrt(n).
+   for (let i = 2; i <= Math.sqrt(n); i++) { 
      if (n % i === 0) {
         return false;
      }
@@ -43,7 +41,7 @@ function PrimeMover(num) {
   }
   
 /*  4.run while loop until the value of count is less than num. 
-meaning: we have to iterate over positions of the all prime numbers until we have not found the nth prime number position.
+(meaning: we have to iterate over positions of the all prime numbers until we have not found the nth prime number position.)
 e.g. [3,5,7,9,11,13,17,19,23] ===> 9th position of prime number is 23. (num = 9 , n = 23).
 
     4A.then check whether the n is a prime number or not by callinfg isPrime helper function.
