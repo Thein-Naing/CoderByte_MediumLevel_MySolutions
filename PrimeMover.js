@@ -28,8 +28,8 @@ function PrimeMover(num) {
 /*2. define a helper function to check that the number is prime or not and pass prime number(n) as parameter */  
   
 /*3.run for loop  until the Math.sqrt(n). non-prime number will definitely be less than or equal to sqrt(n).
-  3A.inside this loop check another condition: if the n is divided 
-  by the current number and the remainder is zero then return false. otherwise return true.  */
+  3A.inside this loop check another condition: if the n is divided by the current number 
+  and the remainder is zero then return false. otherwise return true.  */
 
   const isPrime = (n) => {  
    for (let i = 2; i <= Math.sqrt(n); i++) { 
