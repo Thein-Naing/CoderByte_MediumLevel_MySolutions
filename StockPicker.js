@@ -17,18 +17,20 @@ Output: 8 */
 
 
 function StockPicker(arr) { 
-  //1. create the maximum profit to -1 assuming no profit have been made and/or losing.
+  //1. let the maximum profit shalle be -1 assuming no profit have been made as indicated in given question.
     let maxProfit= -1;  
 
-  //2. loop through arr and update boughtPrice index.
-
+  //2. loop through outer arr and declare boughtPrice index.
+  
     for(let i = 0; i < arr.length; i++) { 
 
   //3.  define bougthPrice at arr index "i".
         let boughtPrice = arr[i] ;
-          for (let j = i +1; j < arr.length; j++) {
-
-  //4. define soldPrice at arr index "j"
+      
+  //4. loop through inner array and decleare soldPrice.
+         for (let j = i +1; j < arr.length; j++) {
+           
+  //4A. define soldPrice at arr index "j"
         let soldPrice = arr[j];
 
   /*5. calculate profit assuming soldPrice is bigger than boughtPrice. 
@@ -42,7 +44,6 @@ function StockPicker(arr) {
     }
   //  6.return the maximum profit.                 
   return maxProfit;
-
 }
    
 // keep this function call here 
