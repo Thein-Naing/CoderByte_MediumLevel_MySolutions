@@ -29,13 +29,12 @@ for (let i = first; i <= last; i++) {
   
 /* 5. then using if statement,
 we declare "i" is not in sequence of intergers in sorted array using arr.includes() method.
-(meaning: we loop through each integers and 
-remove existing intergers from start to last integer of sorted array
- and only leave with uncounted intergers to count) */
+(meaning: we loop through each integers and remove existing intergers from between start 
+to last integer of sorted array and only leave with uncounted intergers to count) */
   
 if (!sortedArr.includes(i))  
   
-//6. now we can update the state of count by counting uncounted intergers.
+//6. then we will update the state of count by counting uncounted intergers.
   
     count += 1; // 6A.  count++
   }
