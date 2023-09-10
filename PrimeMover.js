@@ -56,7 +56,7 @@ e.g. [3,5,7,9,11,13,17,19,23] ===> 9th position of prime number is 23. (num = 9 
      n++; // update prime number(since n was not divisible by any numbers(i) so increase the n by 1)
    }
    
-  //5. otherwisw update prime number by decreasing the n by 1 and return it.
+  //5. otherwise update prime number by decreasing the n by 1 and return it.
    return n - 1; // 
   }
   
