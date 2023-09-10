@@ -44,7 +44,7 @@ function PrimeMover(num) {
 (meaning: we have to iterate over positions of the all prime numbers until we have not found the nth prime number position.)
 e.g. [3,5,7,9,11,13,17,19,23] ===> 9th position of prime number is 23. (num = 9 , n = 23).
 
-    4A.then check whether the n is a prime number or not by callinfg isPrime helper function.
+    4A.then check whether the n is a prime number or not by calling isPrime helper function.
 
     4B.if this condition is true then increment the value of count by 1.
   otherwise increment the value of n by 1.
