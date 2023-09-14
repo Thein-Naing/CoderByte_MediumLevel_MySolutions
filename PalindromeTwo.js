@@ -17,7 +17,7 @@ function PalindromeTwo(str) {
   3.  /\W/g === Any non-word character in regex with global flag g 
   ( non-word character === white space, -, e.t.c).
   4. will be replaced with nothing ""  and assign to str1.
-  5. then split the str1 and use str.reverse method  and join back and assign to str2.
+  5. then split the str1 and use str.reverse method, join back and assign to str2.
   6. if str1 === str2 ? true , otherwise false. */
   
   str1 = str.toLowerCase().replace(/\W/g, "");
