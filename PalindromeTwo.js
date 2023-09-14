@@ -1,6 +1,6 @@
 /* Palindrome Two
 
- (Note.If you can solve easy level: Palindrome challenge and Snake Case challenge, you can solve this challenge.)
+(Note.If you can solve easy level: Palindrome challenge and Snake Case challenge, you can solve this challenge.)
  
 Have the function PalindromeTwo(str) take the str parameter being passed and return the string true if the parameter is a palindrome, 
 (the string is the same forward as it is backward) otherwise return the string false. 
