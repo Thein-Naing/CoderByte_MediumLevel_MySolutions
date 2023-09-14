@@ -20,10 +20,10 @@ function PalindromeTwo(str) {
   4. then split the str1 and use str.reverse method, join back and assign to str2.
   5. if str1 === str2 ? true , otherwise false. so just simply return str1 === str2.*/
   
-  str1 = str.toLowerCase().replace(/\W/g, "");
-  str2 = str1.split("").reverse().join("");
+  word1 = str.toLowerCase().replace(/\W/g, "");
+  word2 = word1.split("").reverse().join("");
 
-  return str1 === str2;
+  return word1 === word2;
  
 }
    
