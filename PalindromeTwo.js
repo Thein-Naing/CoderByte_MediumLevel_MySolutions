@@ -18,7 +18,7 @@ function PalindromeTwo(str) {
   ( non-word character === white space, -, e.t.c).
   4. will be replaced with nothing ""  and assign to str1.
   5. then split the str1 and use str.reverse method, join back and assign to str2.
-  6. if str1 === str2 ? true , otherwise false. */
+  6. if str1 === str2 ? true , otherwise false. so just simply return str1 === str2.*/
   
   str1 = str.toLowerCase().replace(/\W/g, "");
   str2 = str1.split("").reverse().join("");
