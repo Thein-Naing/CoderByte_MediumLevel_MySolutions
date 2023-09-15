@@ -27,7 +27,7 @@ function BracketMatcher(str) {
                                                you can use while loop or ternary operator for if else statement. both methods are correct.*/
     
      return  left === right ? 1 : 0;        /* 8. if quantity of left and right are same, then the brackets are correctly matched and return 1.
-                                            /* 9. otherwise quantity of left and right are not the same.so return "zero". */*/                                                           
+                                               9. otherwise quantity of left and right are not the same.so return "zero". */                                                          
 }
         
 // keep this function call here 
