@@ -27,13 +27,13 @@ function BracketMatcher(str) {
     /* 7. we have finished checking input string using for loop. we will continue to check given statement.
           you can use while loop or if else statement. both method are correct.*/
     
-    //      if ( left === right) { /* 8 . if quantity of left and right are same, the brackets are correctly matched and return 1. */
+    //      if ( left === right) { /* 8. if quantity of left and right are same, the brackets are correctly matched and return 1. */
     //          return 1; 
     //       } else { // 9. otherwise quantity of left and right are not the same.so return "zero".
     //          return 0;
     //    }
 
-     while ( left === right) { /* 8 . if quantity of left and right are same,the brackets are correctly matched  and return 1. */
+     while ( left === right) { /* 8. if quantity of left and right are same,the brackets are correctly matched and return 1. */
              return 1; 
       }   // 9. otherwise quantity of left and right are not the same.so return "zero".
              return 0;
