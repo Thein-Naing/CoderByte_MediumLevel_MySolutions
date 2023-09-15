@@ -28,11 +28,11 @@ function BracketMatcher(str) {
 
          if ( left === right) { /* 7 . if quantity of left and right are same, the brackets are correctly matched and return 1. */
              return 1; 
+             
             } else { // 8. otherwise quantity of left and right are not the same.so return "zero".
              return 0;
     }
 }
         
-
 // keep this function call here 
 console.log(BracketMatcher(readline()));
