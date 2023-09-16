@@ -45,8 +45,9 @@ For example: if num is 910, the output should be 1 because 910 can be arranged i
 
 
         if(isPrime(integer2)) {
-          return 1;        /* 5A.if iterate over all(integer2) & integer2 will be prime 
-                                 if it was not divisible by any number(j). */
+          return 1;        /* 5A.if iterate over all(integer2) & integer2 will be prime. 
+                                 becuase it was not divisible by any number(j). 
+                                 Meaning: 589/598 !== 0 || 859/598 !== 0  && 89/98 !== 0 */
       }    
     }
  }
