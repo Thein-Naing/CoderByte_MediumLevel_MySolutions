@@ -18,8 +18,8 @@ function BracketMatcher(str) {
         } else if (str[i] === ")" ) {        /* 5. if the character is a closing bracket update right. increment the right quantity. */
           right++;
         }
-         if (right > left) {                /* 6. if closing or opening bracket quantity is greater than > opening or closing bracket,
-                                               brackets are not correctly match up and return "zero" . you can write if ( left > right ) also.*/
+         if (right > left) {                /* 6. if closing bracket quantity is greater than > opening bracket,
+                                               brackets are not correctly match up and return "zero". */
               return 0;
         }
     }
