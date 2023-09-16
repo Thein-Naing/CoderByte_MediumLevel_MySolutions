@@ -6,7 +6,7 @@ For example: if num is 910, the output should be 1 because 910 can be arranged i
   // code goes here  
   // Note. If you can solve Prime Number and Prime Mover challenges, you can solve this challenge.
 
-  /* 1. create helper isPrime function taking num as argument to check rearranged integers from given number are prime */
+  /* 1. create isPrime helper function taking num as argument to check rearranged integers from given number are prime */
 
  const isPrime = (num) => {  
     if (num <= 1) return false;  // 1A. we have to check num <= 1 because if given number is 100 and one of rearranged integers will be 001.
