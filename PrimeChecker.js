@@ -41,7 +41,7 @@ For example: if num is 910, the output should be 1 because 910 can be arranged i
 
   /*  console.log(integer2); 
    5. if we log, we will get  integer2 = 589, 598,859  and 89 for input 598 and 98. 
-      and now we can check integr2 is  prime*/
+      and now we can check integr2 is prime  */
 
 
         if(isPrime(integer2)) {
