@@ -34,7 +34,7 @@ For example: if num is 910, the output should be 1 because 910 can be arranged i
 /* 4. find integer2 of given number by assuming j is integer1.
       Meaning: loop will start from interger1 and end at integer 3.*/
 
- for (let j = integer1; j <= num * 3; j++) {        
+ for (let j = integer1; j <= num * 10; j++) {        
    if (parseInt(j.toString().split('').sort().join('')) === integer1) {
         integer2 = j;
 
