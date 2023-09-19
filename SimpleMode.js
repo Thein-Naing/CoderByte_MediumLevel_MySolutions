@@ -15,14 +15,14 @@ for(let i = 0; i < arr.length; i++) {          // 3. loop through the array to f
     let occurence = 0;                         // 4 . initial state of occurence in each element shall be zero.
                                                // 5. note. console.log(occurence).
     for(let j = 0; j < arr.length; j++) {
-        if( j !== i && arr[i] === arr[j]) {    /* 6. occurence is multiple time bec we found that arr[i] of outer loop was found as arr[j] in inner loop */
-            occurence++;                       // 7. meaning : there will be mode . so we update the occurence, occurence += 1.  // note. console.log(occurence).
+        if( j !== i && arr[i] === arr[j]) {    /* 6. assuming  j!== i and arr[i] of outer loop was same as as arr[j] in inner loop */
+            occurence++;                       // 7. meaning : there will be multiple modes as arr[i] and arr[j]. so we update the occurence, occurence += 1.  // note. console.log(occurence).
         }
 
-        if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is the maximum occurence in array then
-            mode = arr[i];                     // 9.  meaning : arr[i] is mode and arr[i] is appered first in outer loop.
-            maxOccurence = occurence;          // 10. also there is more than one mode and other mode is same maximum occurence as arr [i].
-            occurence = 0;                     // 11. then occurence of other mode will be considered "zero" bec it followed after arr[i].
+        if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is the maximum occurence in array then 
+            mode = arr[i];                     // 9.  meaning : arr[i] is mode and assuming arr[i] is appered first in outer loop.
+            maxOccurence = occurence;          // 10. also there is more than one mode and other mode arr[j] is same maximum occurence as arr [i].
+            occurence = 0;                     // 11. then occurence of arr[j] will be considered "zero" bec it followed after arr[i].
         }
     }
 }
