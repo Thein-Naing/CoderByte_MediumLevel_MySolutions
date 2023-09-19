@@ -16,7 +16,7 @@ for(let i = 0; i < arr.length; i++) {          // 3. loop through the array to f
                                                // 5. note. console.log(occurence).
     for(let j = 0; j < arr.length; j++) {
         if( j !== i && arr[i] === arr[j]) {    /* 6. occurence is multiple time bec we found that arr[i] of outer loop was found as arr[j] in inner loop */
-            occurence++;                       // 7. so we update the occurence, occurence += 1.  // note. console.log(occurence).
+            occurence++;                       // 7. meaning : there will be mode . so we update the occurence, occurence += 1.  // note. console.log(occurence).
         }
 
         if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is the maximum occurence in array then
