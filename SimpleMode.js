@@ -20,14 +20,14 @@ for(let i = 0; i < arr.length; i++) {          // 3. loop through the array to f
                                                      in inner loop. so we update the occurence, occurence += 1.  // note. console.log(occurence). */      
         }
 
-        if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is greater the initial state of maximum occurence( maxOccurence = 0).
+        if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is greater than the initial state of maximum occurence( maxOccurence = 0).
                                                               
             mode = arr[i]; 
             maxOccurence = occurence;          /* 9.  then occurence of arr[i] will be maximum occurence. so element of arr[i] will be mode and 
                                                        assuming not only arr[i] is appered first in outer loop 
                                                        but also there is more than one mode and other mode which has same maximum occurence as arr[i] . */
                                                /* 10.  then as given statement in challenge, if there is more than one mode, 
-                                                       return the one that  appeared in the array first. .*/
+                                                       return the one that appeared in the array first.so we return arr[i] as mode.*/
       }
    }
 
