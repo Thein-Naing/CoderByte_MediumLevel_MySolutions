@@ -22,7 +22,7 @@ for(let i = 0; i < arr.length; i++) {          // 3. loop through the array to f
         if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is the maximum occurence in array then 
             mode = arr[i];                     // 9.  meaning : arr[i] is mode and assuming arr[i] is appered first in outer loop.
             maxOccurence = occurence;          // 10. also there is more than one mode and other mode arr[j] is same maximum occurence as arr [i].
-            occurence = 0;                     // 11. then occurence of arr[j] will be considered "zero" bec it followed after arr[i].
+                                               // 11. then occurence of arr[j] will be considered "zero" bec it followed after arr[i].
         }
     }
 }
