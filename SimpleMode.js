@@ -16,21 +16,28 @@ for(let i = 0; i < arr.length; i++) {          // 3. loop through the array to f
                                                // 5. note. console.log(occurence).
     for(let j = 0; j < arr.length; j++) {
         if( j !== i && arr[i] === arr[j]) {    /* 6. assuming  j!== i and arr[i] of outer loop was same as as arr[j] in inner loop */
-            occurence++;                       // 7. meaning : there will be multiple modes as arr[i] and arr[j]. so we update the occurence, occurence += 1.  // note. console.log(occurence).
+            occurence++;                       /* 7. meaning : there will be a mode as element of arr[i] from outer loop appears element of arr[j] 
+                                                     in inner loop. so we update the occurence, occurence += 1.  // note. console.log(occurence). */      
         }
 
-        if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is the maximum occurence in array then 
-            mode = arr[i];                     // 9.  meaning : arr[i] is mode and assuming arr[i] is appered first in outer loop.
-            maxOccurence = occurence;          // 10. also there is more than one mode and other mode arr[j] is same maximum occurence as arr [i].
-                                               // 11. then occurence of arr[j] will be considered as no multiple occurence because it appeared after arr[i].
-    }
-}
+        if( occurence > maxOccurence) {        // 8. if occurence of arr[i] is greater the initial state of maximum occurence( maxOccurence = 0).
+                                                              
+            mode = arr[i]; 
+            maxOccurence = occurence;          /* 9.  then occurence of arr[i] will be occurence. so element of arr[i] will be mode and 
+                                                       assuming not only arr[i] is appered first in outer loop 
+                                                       but also there is more than one mode and other mode which has same maximum occurence as arr[i] . */
+                                               /* 10.  then as given statement in challenge, if there is more than one mode, 
+                                                       return the one that  appeared in the array first. .*/
+      }
+   }
 
-if( maxOccurence === 0) {                      // 12. if there is no multiple occurences of element, means there is no mode . so return -1.
+}
+    
+if( maxOccurence === 0) {                      // 11. if there is no multiple occurences of element, means there is no mode and return -1.
     return -1;
     }
 
-return mode;                                   // 13. otherwise return mode;
+return mode;                                   // 12. otherwise return mode.
 }
   
 // keep this function call here 
