@@ -38,7 +38,7 @@ function ArithGeoII(arr) {
                                                        // 1D. always return false condition first to make sure difference is consistent.                                
       }  
   }
-  return true;                                         // 1D. then return true for isArithmetic finction. */ 
+  return true;                                         // 1D. then return true for isArithmetic function. */ 
  }
 
  const isGeometric = () => {                           // 2. create function for the sequence follows a geometric pattern 
