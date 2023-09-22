@@ -51,7 +51,7 @@ function ArithGeoII(arr) {
  }  
 
   if (isArithmetic(arr))  return 'Arithmetic';          // 3. if the sequence of given arr follows an arithmetic, then return "Arithmetic",           
-  if (isGeometric(arr))   return 'Geometric';           // 3A. if the sequence follows a geometric pattern return "Geometric",
+  if (isGeometric(arr))   return 'Geometric';           // 3A. if the sequence 0f given arr follows a geometric pattern return "Geometric",
   return -1;                                            // 3B. if the sequence doesn't follow either pattern return -1.  */
 
 }
