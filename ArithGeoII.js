@@ -30,18 +30,19 @@ function ArithGeoII(arr) {
        C. if the sequence doesn't follow either pattern return -1. */
 
  
- const isArithmetic = () => {                       /* 1. create function for the sequence follows an arithmetic pattern                                                         
-   for (let i = 1; i < arr.length - 1 ; i++) {         1A. use for loop to find difference of each every number is consistent.   
-      if (arr[1] - arr[0] !== arr[i+1]- arr[i]) {      1B. assuming the difference between each of the numbers is inconsistent 
-                                                           e.g. [1,2,3,4,5,10,20], [1,2,3,4,5,6,7,88,2],[10,110,210,310,410,511]                                                       
-        return false;                                      and because of these array types , always return false condition first.                                
+ const isArithmetic = () => {                          // 1. create function for the sequence follows an arithmetic pattern                                                         
+   for (let i = 1; i < arr.length - 1 ; i++) {         // 1A. use for loop to find difference of each every number is consistent.   
+      if (arr[1] - arr[0] !== arr[i+1]- arr[i]) {      // 1B. assuming the difference between each of the numbers is inconsistent 
+                                                       // 1C. e.g. [1,2,3,4,5,10,20], [1,2,3,4,5,6,7,88,2],[10,110,210,310,410,511],                                                      
+        return false;                                  //     there may be these type of arrays.
+                                                       // 1D. always return false condition first to make sure difference is consistent.                                
       }  
   }
-  return true;                                         1C. then return true for isArithmetic finction. */ 
+  return true;                                         // 1D. then return true for isArithmetic finction. */ 
  }
 
- const isGeometric = () => {                        /* 2. create function for the sequence follows a geometric pattern 
-   for (let j = 1; j < arr.length-1 ; j++) {           2A. the procedure is same as above steps 1A,1B and 1C. */
+ const isGeometric = () => {                           // 2. create function for the sequence follows a geometric pattern 
+   for (let j = 1; j < arr.length-1 ; j++) {           // 2A. the procedure is same as above steps 1A,1B and 1C. 
       if(arr[1] / arr[0] !== arr[j+1] / arr[j]) {
         return false;
     } 
@@ -49,9 +50,9 @@ function ArithGeoII(arr) {
   return true;
  }  
 
-  if (isArithmetic(arr))  return 'Arithmetic';     /*   3. if the sequence of given arr follows an arithmetic, then return "Arithmetic",           
-  if (isGeometric(arr))   return 'Geometric';              if the sequence follows a geometric pattern return "Geometric",
-  return -1;                                               if the sequence doesn't follow either pattern return -1.  */
+  if (isArithmetic(arr))  return 'Arithmetic';          // 3. if the sequence of given arr follows an arithmetic, then return "Arithmetic",           
+  if (isGeometric(arr))   return 'Geometric';           // 3A. if the sequence follows a geometric pattern return "Geometric",
+  return -1;                                            // 3B. if the sequence doesn't follow either pattern return -1.  */
 
 }
           
