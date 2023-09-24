@@ -24,7 +24,7 @@ for(let i = 0; i < arr.length; i++) {          // 3. loop through the array to f
                                                               
             mode = arr[i]; 
             maxOccurence = occurence;          /* 9.  then occurence of arr[i] will be maximum occurence. so element of arr[i] will be mode and 
-             mode = arr[i];                                          assuming not only arr[i] is appered first in outer loop 
+             mode = arr[i];                            assuming not only arr[i] is appered first in outer loop 
                                                        but also there is more than one mode and other mode which has same maximum occurence as arr[i] . */
                                                /* 10.  then as given statement in challenge, if there is more than one mode, 
                                                        return the one that appeared in the array first.so we return arr[i] as mode.*/
