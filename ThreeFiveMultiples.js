@@ -11,7 +11,8 @@ Input: 1
 Output: 0
 
 Tags
-searching math fundamentals  */
+searching math fundamentals 
+Note: You can solve this challenge if you solved FizzBuzz challenge. */
 
 
 function ThreeFiveMultiples(num) {
