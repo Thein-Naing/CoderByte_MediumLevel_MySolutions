@@ -14,6 +14,9 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b159d451-79e1-4d9a-9b99-eed3d6a43951)
 `[5] ArithGeoII`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/a95deb41-6357-4701-a46d-e3b680cb6329)
+`[6]Primes`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/e3224edf-2d2a-48b9-b32c-b25b3994a69b)
+
 
 
 
