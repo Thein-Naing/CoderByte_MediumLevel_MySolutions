@@ -24,8 +24,8 @@ function LongestConsecutive(arr) {
     let count = 1                           // 2. initial count for LCS shall be "1".
     
     for (i = 0; i < arr.length - 1; i++) {
-       if (arr[i + 1] === arr[i] ) {        // 3. duplicated number will not be counted. we have to specify this statement for passing all tests.
-            }
+       if (arr[i + 1] === arr[i] ) {        // 3. duplicated number will not be counted. we have to specify this statement for passing all tests. just state count.
+         count;   }
      
       else if (arr[i+1] - arr[i] !== 1 )    // 4. if there is no consecutive, increasing order between two numbers, then count will be 1.
 
