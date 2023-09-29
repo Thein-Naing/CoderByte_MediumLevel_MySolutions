@@ -26,7 +26,8 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/e9c898b2-5238-4613-82a9-22c03b988af3)
 
 `[8] LongestConsecutive.js`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/422c7963-4614-45aa-8218-66ae01150ea1)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/12db39ec-0dc0-4e44-af12-993367fb8125)
+
 
 
 
