@@ -31,6 +31,10 @@ This is just information sharing for whom visited to my github page.`
 `[9]Division`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/221e16fb-97ae-440e-aaeb-fab6b6fc539c)
 
+`[10]StringScramble`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/491d5594-8afb-4b27-96eb-69cf8f778097)
+
+
 
 
 
