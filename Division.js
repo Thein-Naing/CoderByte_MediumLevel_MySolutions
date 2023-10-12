@@ -10,15 +10,15 @@ Output: 18
 Tags
 math fundamentals algebra*/
 
-// Notes. Same solution as GCF (Great Common Factor) solution in easy level challenge except for  replacing arr with num1, num2.
+// Notes. Same solution as GCF (Great Common Factor) solution in easy level challenge except for replacing arr with num1, num2.
 
 function Division(num1,num2) { 
 
   // code goes here  
    let gcf = 1;                                   // 1. initial value of gcf number shall be 1.
 
-   for (let i = 0; i <= num1; i++) {              // 2. use For Loop(for iterating each every integer of given arr to get desired condition).
-       if (num1 % i === 0  && num2 % i === 0) {   // 3. desired condtion === every number in array must be divisible by i where value of i starting from index 0.
+   for (let i = 0; i <= num1; i++) {              // 2. use For Loop(for iterating each every integer of given numbers to get desired condition).
+       if (num1 % i === 0  && num2 % i === 0) {   // 3. desired condtion === every given number must be divisible by i where value of i starting from index 0.
          gcf = i;                                 // 4. if desired conditions are met, then gcf number will be equal to this interger i.
        }
    }
