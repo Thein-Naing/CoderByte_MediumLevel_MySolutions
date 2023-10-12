@@ -24,7 +24,7 @@ for (let i = 0; i < str2.length; i++) {           // 1. loop through str2 using 
        }
     }
   
-    return true;                                // 6. otherwise if all character of str2 exists in str1.    
+    return true;                                // 6. otherwise all character of str2 exists in str1 and return true.   
 }
   
 // keep this function call here 
