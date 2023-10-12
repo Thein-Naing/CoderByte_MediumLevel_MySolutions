@@ -9,7 +9,7 @@ function StringScramble(str1,str2) {
   // code goes here  
 for (let i = 0; i < str2.length; i++) {           // 1. loop through str2 using For Loop to check a portion of str1 characters exist. 
     
-                                                  /* 2. Assume each character of str2 equal to a portion of str1 characters.
+                                                  /* 2. Assume each character of str2 equal to a portion of str1 characters.e.g:("cdorere", "coder")
                                                         example: str1.indexOf(0) === str2.CharAt(0) or
                                                                  str1.indexOf(1) === str2.CharAt(2) or
                                                                  str1.indexOf(2) === str2.CharAt(1) or
