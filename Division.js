@@ -18,7 +18,7 @@ function Division(num1,num2) {
    let gcf = 1;                                   // 1. initial value of gcf number shall be 1.
 
    for (let i = 0; i <= num1; i++) {              // 2. use For Loop(for iterating each every integer of given numbers to get desired condition).
-       if (num1 % i === 0  && num2 % i === 0) {   // 3. desired condtion === every given number must be divisible by i where value of i starting from index 0.
+       if (num1 % i === 0  && num2 % i === 0) {   // 3. desired condtion === every given number must be divisible by i where value of i starting from 0.
          gcf = i;                                 // 4. if desired conditions are met, then gcf number will be equal to this interger i.
        }
    }
