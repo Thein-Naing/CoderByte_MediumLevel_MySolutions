@@ -3,6 +3,8 @@
 Have the function DashInsertII(str) insert dashes ('-') between each two odd numbers and insert asterisks ('*') between each two even numbers in str.
 For example: if str is 4546793 the output should be 454*67-9-3. Don't count zero as an odd or even number. */
 
+// Notes: if you have solved DashInsert easy level challenge, you can solve this challenge.
+
   /*1. Convert num to str using num.toString() method .create and use two regex to check odd  and even numbers [1,3,5,7,9] & [2,4,6,8] of given num
   are match with following 1,3,5,7,9 & 2,4,6,8 numbers in given num.*/ 
 
