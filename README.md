@@ -37,6 +37,10 @@ This is just information sharing for whom visited to my github page.`
 `[11]DashInsertII`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/8facf328-a87e-414e-bcea-f74ed6a05311)
 
+`[12]` StringCalculate`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/6fa65a84-c75d-4c8b-be18-e4cb3e2ba3bd)
+
+
 
 
 
