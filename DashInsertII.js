@@ -33,7 +33,7 @@ For example: if str is 4546793 the output should be 454*67-9-3. Don't count zero
 function DashInsertII(num) { 
 
   // code goes here  
- return num.toString().replace(/([13579])(?=[13579])/g, "$1-").replace(/([2468])(?=[2468])/g, '$1*');
+return num.toString().replace(/([13579])(?=[13579])/g, "$1-").replace(/([2468])(?=[2468])/g, '$1*')
 
 }
    
