@@ -15,6 +15,7 @@ Output: 1 5
 Tags
 searchingstack Node.js */
 
+// Notes. If you have solved BracketMatcher medium level challenge, you can solve this challenge.
 
 function MultipleBrackets(str) { 
 
