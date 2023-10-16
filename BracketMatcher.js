@@ -8,26 +8,26 @@ Only "(" and ")" will be used as brackets. If str contains no brackets return 1.
 
 function BracketMatcher(str) {
     
-       let left = 0;                        //1. initial quantity of opening bracket shall be "zero"
-       let right = 0;                       //2. initial quantity of closing bracket shall be "zero"
+       let left = 0;                        // 1. Initial quantity of opening bracket shall be "zero"
+       let right = 0;                       // 2. Initial quantity of closing bracket shall be "zero"
 
-    for (let  i = 0; i < str.length; i++) { //3.Loop through each character in the input string
-        if (str[i] === "(" ) {              /* 4.if the character is an opening bracket update left.increment the left quantity. */     
+    for (let  i = 0; i < str.length; i++) { // 3. Loop through each character in the given string
+        if (str[i] === "(" ) {              /* 4.If the character is an opening bracket update left by incrementing the left quantity. */     
           left++; 
 
-        } else if (str[i] === ")" ) {        /* 5. if the character is a closing bracket update right. increment the right quantity. */
+        } else if (str[i] === ")" ) {        /* 5. If the character is a closing bracket update right by incrementing the right quantity. */
           right++;
         }
-         if (right > left) {                /* 6. if closing bracket quantity is greater than > opening bracket,
-                                               brackets are not correctly match up and return "zero". */
+         if (right > left) {                /* 6. If closing bracket quantity is greater than > opening bracket,
+                                                  brackets are not correctly match up and return "zero". */
               return 0;
         }
     }
-                                            /* 7. we have finished checking input string using for loop. we will continue to check given statement.
-                                               you can use while loop or ternary operator for if else statement. both methods are correct.*/
+                                            /* 7. We have finished checking given string using for loop. we will continue to check given statement.
+                                                  You can use while loop or ternary operator for if else statement. both methods are correct.*/
     
-     return  left === right ? 1 : 0;        /* 8. if quantity of left and right are same, then the brackets are correctly matched and return 1.
-                                               9. otherwise quantity of left and right are not the same.so return "zero". */                                                          
+     return  left === right ? 1 : 0;        /* 8. If quantity of left and right are same, then the brackets are correctly matched and return 1.
+                                                  Otherwise quantity of left and right are not the same.So return "zero". */                                                          
 }
         
 // keep this function call here 
