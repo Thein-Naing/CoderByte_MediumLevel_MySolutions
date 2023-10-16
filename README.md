@@ -43,8 +43,7 @@ This is just information sharing for whom visited to my github page.`
 `[13]MultipleBrackets`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9f3b477b-698a-4611-aee7-2dca0af7b829)
 
-`[14]TripleDouble`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/aba4263a-0f9e-47b4-8056-ca23498fc590)
+
 
 
 
