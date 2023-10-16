@@ -41,7 +41,8 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/6fa65a84-c75d-4c8b-be18-e4cb3e2ba3bd)
 
 `[13]MultipleBrackets`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9f3b477b-698a-4611-aee7-2dca0af7b829)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/cfa7c6a2-b83f-4169-84d6-08b7457acfc4)
+
 
 
 
