@@ -24,8 +24,7 @@ function TripleDouble(num1,num2) {
 
   for(let i = 0; i < arr1.length; i++){
     if(arr1[i] === arr1[i+1] && arr1[i+1] === arr1[i+2]){
-      count = arr1[i];
-      break;
+      count = arr1[i];   
       }
     }
  
