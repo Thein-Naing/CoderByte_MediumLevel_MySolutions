@@ -18,22 +18,7 @@ searching  */
 function TripleDouble(num1,num2) { 
 
   // code goes here  
-  let arr1 = num1.toString().split("");
-  let arr2 = num2.toString().split("");
-  let count = 0;
 
-  for(let i = 0; i < arr1.length; i++){
-    if(arr1[i] === arr1[i+1] && arr1[i+1] === arr1[i+2]){
-      count = arr1[i];   
-      }
-    }
- 
-  for(let j = 0; j < arr2.length; j++){
-    if(arr2[j] === arr2[j+1] && arr2[j] === count) {
-      return 1;
-      }
-    }
-    return 0;
 }
 // keep this function call here 
 console.log(TripleDouble(readline()));
