@@ -26,7 +26,7 @@ function MultipleBrackets(str) {
   let  C = 0;                              // 3. initial quantity of opening square bracket shall be "zero".
   let  D = 0;                              // 4. initial quantity of closing square bracket shall be "zero".
 
- for(let i = 0; i < str.length; i++) {     // 5. Use For Loop to find each and every character in the given string to check:
+ for(let i = 0; i < str.length; i++) {     // 5. Use For Loop to find each and every character in the given string to check which type of bracket.
    if(str[i] === "(") {                    // 6. If the character is an opening curly bracket, then update quantity of opening curly bracket.
       A += 1;
    } if(str[i] === ")") {                  // 7. If the character is an closing curly bracket, then update quantity of closing curly bracket.
