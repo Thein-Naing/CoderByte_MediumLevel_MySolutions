@@ -41,10 +41,10 @@ function MultipleBrackets(str) {
                                                  you can use while loop or ternary operator for if else statements and both methods are fine. */
                                           /* 12.(i) if given str contains no brackets, then return 1.
                                                 (ii) if the brackets are correctly matched and each one is accounted for and there are some pairs of brackets
-                                                     then return  1 + "" + (opening curly bracket + opening square bracket) */
+                                                     then return  1 + " "( one white space between marks) + (opening curly bracket + opening square bracket) */
                                           // 13. Otherwise quantity of opening brackets and closing brackets are not the same. So return "zero". 
   
-   return A === 0 && B === 0 && C === 0 && D === 0 ? 1 : A === B && C === D ? 1 + "" + (A + C) : 0; 
+   return A === 0 && B === 0 && C === 0 && D === 0 ? 1 : A === B && C === D ? 1 + " " + (A + C) : 0; 
 }
    
 // keep this function call here 
