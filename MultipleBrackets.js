@@ -19,26 +19,32 @@ searchingstack Node.js */
 function MultipleBrackets(str) { 
 
   // code goes here  
-  let  A = 0;
-  let  B = 0;
-  let  C = 0;
-  let  D = 0;
+  
+  let  A = 0;                              // 1. initial quantity of opening curly bracket shall be "zero".
+  let  B = 0;                              // 2. initial quantity of closing curly bracket shall be "zero".
+  let  C = 0;                              // 3. initial quantity of opening square bracket shall be "zero".
+  let  D = 0;                              // 4. initial quantity of closing square bracket shall be "zero".
 
- for(let i = 0; i < str.length; i++) {
-   if(str[i] === "(") {
+ for(let i = 0; i < str.length; i++) {     // 5. Use For Loop to find each and every character in the given string to check:
+   if(str[i] === "(") {                    // 6. If the character is an opening curly bracket, then update quantity of opening curly bracket.
       A += 1;
-   } if(str[i] === ")") {
+   } if(str[i] === ")") {                  // 7. If the character is an closing curly bracket, then update quantity of closing curly bracket.
      B += 1;
-   } if(str[i] === "[") {
+   } if(str[i] === "[") {                  // 8. If the character is an opening square bracket, then update quantity of opening square bracket.
      C += 1;
-   } if(str[i] === "]") {
+   } if(str[i] === "]") {                  // 9. If the character is an closing square bracket, then update quantity of closing square bracket.
      D += 1;
-   } if (B > A || D > C ) {
+   } if (B > A || D > C ) {               // 10. If closing bracket quantities are greater than opening bracket quantities, brackets are not correctly match up and return "zero".
    return 0;
    }
-}
-
-   return A === 0 && B === 0 && C === 0 && D === 0 ? 1 : A === B && C === D ? 1 + "" + (A + C) : 0;
+}                                         /* 11. We have finished checking given string using For Loop. We will continue to check given statement.
+                                                 you can use while loop or ternary operator for if else statements and both methods are fine. */
+                                          /* 12.(i) if given str contains no brackets, then return 1.
+                                                (ii) if the brackets are correctly matched and each one is accounted for and there are some pairs of brackets
+                                                     then return  1 + "" + (opening curly bracket + opening square bracket) */
+                                          // 13. Otherwise quantity of opening brackets and closing brackets are not the same. So return "zero". 
+  
+   return A === 0 && B === 0 && C === 0 && D === 0 ? 1 : A === B && C === D ? 1 + "" + (A + C) : 0; 
 }
    
 // keep this function call here 
