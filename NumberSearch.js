@@ -1,49 +1,50 @@
-/*Number Search
+/* 
+medium 
+Number Search
+Have the function NumberSearch(str) take the str parameter, search for all the numbers in the string, add them together, then return that final number divided by the total amount of letters in the string. 
+For example: if str is "Hello6 9World 2, Nic8e D7ay!" the output should be 2. First if you add up all the numbers, 6 + 9 + 2 + 8 + 7 you get 32.
+Then there are 17 letters in the string. 32 / 17 = 1.882, and the final answer should be rounded to the nearest whole number, so the answer is 2.
+Only single digit numbers separated by spaces will be used throughout the whole string (So this won't ever be the case: hello44444 world).
+Each string will also have at least one letter.
 
-Have the function NumberSearch(str) take the str parameter, search for all the numbers in the string, add them together, 
-then return that final number divided by the total amount of letters in the string. 
-For example: if str is "Hello6 9World 2, Nic8e D7ay!" the output should be 2. First if you add up all the numbers, 6 + 9 + 2 + 8 + 7 you get 32. 
-Then there are 17 letters in the string. 32 / 17 = 1.882, and the final answer should be rounded to the nearest whole number, so the answer is 2. 
-Only single digit numbers separated by spaces will be used throughout the whole string 
-(So this won't ever be the case: hello44444 world). Each string will also have at least one letter. */
+Examples
+Input: "H3ello9-9"
+Output: 4
+Input: "One Number*1*"
+Output: 0
 
-
+Tags
+searching math fundamentals  */
 
 function NumberSearch(str) { 
+   
+      let sum = 0;                             // 1. Initial result of adding up all numbers shall be "zero".
+      let letterCount = 0;                     // 2. Initially total amount of letters in the given string shall be "zero" 
 
-// 1.define sum for total and letters for char counts and assign zero value for both initially.
-  let sum = 0;
-  let letters = 0;
+                                               /* Given Statement: search for all the numbers in the string, add them together */
+    
+      for (let i = 0; i < str.length; i++) {   /* 3. Use For Loop to iterate through each every charaters of given str to determine the type of character.
+        let char = str.charAt(i);                    initiate variable called char to define character of given str. */
   
-  //2. loop through each character in the given string. use charAT() method to define char.
-  for (let i = 0; i < str.length; i++) {
-     let char = str.charAt(i); /* 2A. The charAt() method returns the character at a specified index (position) in a string.
-                                       The index of the first character is 0, the second 1, ...*/
-    
-    /* 3. use regex method: /^\d$/.test(char) method.
-    ...the forward slashes / / mark the start and end of the regular expression.
-    ...the caret ^ matches the beginning of the input and the dollar sign $ matches the end of the input.
-    ...the \d character matches any digit from 0 to 9. */
-    //3A.if the character which we pass to the function is a number, then convert it to integer and add it to the sum.
-    //3B. exclude spaces from the sum; meaning: char !== " ". 
-    //3C. the parseInt method parses a value as a string and returns the first integer.*/
-    
-        if (/^\d$/.test(char) && char !== " ") {   
-      sum += parseInt(char);  // 3D. sum = sum + parseInt(char).
-    }
-    
-    // 4. if the character is a letter, then increment the letters. use regex method: /[a-zA-Z]/.test(char) method.
-    
-    if (/[a-zA-Z]/.test(char)) {
-      letters++;  //4A. letters + 1;
-    }
-  }
+          if (char.match(/[0-9]/)) {           /* 4. If character is a number, then update sum. Use str.match() method with number regex and calling parseInt method
+          sum += parseInt(char);                     with variable char. */
+        }
+
+        if (char.match(/[a-zA-Z]/)) {          /* 5. If character is a letter, then update letterCount. Use str.match() method with words regex. */
+          letterCount++;
+        }
+      }
+                                              /* Given Statement: then return that final number divided by the total amount of letters in the string.
+                                                                  then final answer should be rounded to the nearest whole number.   */
   
-  // 5. dividing the sum by the letters and round the result and return it.
+       return result = Math.round(sum / letterCount);   /* 6.  Return result as per given statement and use Math.round() method to get nearest whole number. */
+
+      }
+        
+     /* Notes: The charAt() method returns the character at a specified index (position) in a string.The index of the first character is 0, the second 1, ...*/ 
+              The forward slashes / / mark the start and end of the regular expression. 
+              The parseInt method parses a value as a string and returns the first integer. */   
  
-return Math.round(sum / letters);
-  
- }
    
 // keep this function call here 
 console.log(NumberSearch(readline()));  // given "3Hello9 9 9" =====> 6.
