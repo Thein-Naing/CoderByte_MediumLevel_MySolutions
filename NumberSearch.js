@@ -41,9 +41,9 @@ function NumberSearch(str) {
 
       }
         
-     /* Notes: The charAt() method returns the character at a specified index (position) in a string.The index of the first character is 0, the second 1, ...*/ 
-              The forward slashes / / mark the start and end of the regular expression. 
-              The parseInt method parses a value as a string and returns the first integer. */   
+     /* Notes: The charAt() method returns the character at a specified index (position) in a string.The index of the first character is 0, the second 1,...e.t.c.
+               The forward slashes / / mark the start and end of the regular expression. 
+               The parseInt method parses a value as a string and returns the first integer. */   
  
    
 // keep this function call here 
