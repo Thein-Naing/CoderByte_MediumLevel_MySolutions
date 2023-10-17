@@ -16,7 +16,7 @@ let str = "aabbcde";
 
 function RunLength(str) {
   let count = 1;                                     // 1. initial state of repeated letter count shall be "one" becaue e.g. "abc" === "1*a1*b1*c".
-  let result = "";                                   // 2. assuming there are no repeating letters in given str.
+  let result = "";                                   // 2.initial state of result shall be empty str.
 
   for (let i = 0; i < str.length; i++) {             // 3. Use For Loop to iterate through each every characters of given str to find repeated letters.
                                                      
