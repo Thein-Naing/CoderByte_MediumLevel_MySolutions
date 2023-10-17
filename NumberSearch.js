@@ -28,16 +28,16 @@ function NumberSearch(str) {
   
           if (char.match(/[0-9]/)) {           /* 4. If character is a number, then update sum. Use str.match() method with number regex and calling parseInt method
           sum += parseInt(char);                     with variable char. */
-        }
+          }
 
-        if (char.match(/[a-zA-Z]/)) {          /* 5. If character is a letter, then update letterCount. Use str.match() method with words regex. */
+          if (char.match(/[a-zA-Z]/)) {        /* 5. If character is a letter, then update letterCount. Use str.match() method with words regex. */
           letterCount++;
-        }
+          }
       }
-                                              /* Given Statement: then return that final number divided by the total amount of letters in the string.
+                                               /* Given Statement: then return that final number divided by the total amount of letters in the string.
                                                                   then final answer should be rounded to the nearest whole number.   */
   
-       return result = Math.round(sum / letterCount);   /* 6.  Return result as per given statement and use Math.round() method to get nearest whole number. */
+      return result = Math.round(sum / letterCount);   /* 6.  Return result as per given statement and use Math.round() method to get nearest whole number. */
 
       }
         
