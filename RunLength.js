@@ -12,7 +12,7 @@ Output: 3w3b1w
 Tags
 string manipulation encoding recursion */
 
-function RunLength = (str) => {
+function RunLength(str) {
   let count = 1;                                     // 1. initial state of repeated letter count shall be "one" becaue e.g. "abc" === "1*a1*b1*c".
   let result = "";                                   // 2.initial state of result shall be empty str.
 
