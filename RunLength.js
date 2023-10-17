@@ -18,13 +18,14 @@ function RunLength(str) {
 
   for (let i = 0; i < str.length; i++) {             // 3. Use For Loop to iterate through each every characters of given str to find repeated letters.
                                                      
-    if (str[i] !== str[i + 1]) {                     // 4. If there is no repeated letters, then number of count will be same as initial state value as 1.       
-      
-      result += count + str[i];                      // 5. Update the result and result will be like "abc" === "1a1b1c".
-      count = 1;                                     // 6. And update the count.
+    if (str[i] !== str[i + 1]) {                     // 4. If the current character is different the next one, Meaning: there is no repeated letters, 
+                                                          
+                                                                          
+      result += count + str[i];                      // 5. Update the result by adding count and character at str[i] . The result will be like "abc" === "1a1b1c".
+      count = 1;                                     // 6. And update the count.The number of count will be same as initial state value as 1.
     } else {
       
-      count += 1;                                    // 7. Otherwise there will be repeated letters and  update count.
+      count += 1;                                    // 7. Otherwise the current character is same as the next one, Meaning: there will be repeated letters and  update count.
     }
   }
 
