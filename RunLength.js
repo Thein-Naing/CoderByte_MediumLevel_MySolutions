@@ -18,7 +18,7 @@ function RunLength(str) {
 
   for (let i = 0; i < str.length; i++) {             // 3. Use For Loop to iterate through each every characters of given str to find repeated letters.
                                                      
-    if (str[i] !== str[i + 1]) {                     // 4. If the current character is different the next one, Meaning: there is no repeated letters, 
+    if (str[i] !== str[i + 1]) {                     // 4. If the current character is different from the next one, Meaning: there is no repeated letters, 
                                                           
                                                                           
       result += count + str[i];                      // 5. Update the result by adding count and character at str[i] . The result will be like "abc" === "1a1b1c".
