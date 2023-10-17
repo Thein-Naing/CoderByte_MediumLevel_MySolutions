@@ -3,6 +3,9 @@
 `This is just my answers for coderbyte challenge medium level codes from my coderbyte account. All challenges took me beyond a couple of hours and sometimes a few days to solve and understand. Please take note you can use any programming languages to solve these challenges and feel free to use any methods as you like and no need to same as my answers.
 This is just information sharing for whom visited to my github page.`
 
+`[1]NumberSearch`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/7fbb628f-a405-4064-b02f-f01926671719)
+
 `2.MostFreeTime`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/4ab0376a-486b-423d-b114-0aebff6e20d9)
 
@@ -37,7 +40,7 @@ This is just information sharing for whom visited to my github page.`
 `[11]DashInsertII`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/8facf328-a87e-414e-bcea-f74ed6a05311)
 
-`[12]` StringCalculate`
+`[12]StringCalculate`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/6fa65a84-c75d-4c8b-be18-e4cb3e2ba3bd)
 
 `[13]MultipleBrackets`
