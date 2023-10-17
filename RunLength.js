@@ -12,8 +12,6 @@ Output: 3w3b1w
 Tags
 string manipulation encoding recursion */
 
-let str = "aabbcde";
-
 function RunLength(str) {
   let count = 1;                                     // 1. initial state of repeated letter count shall be "one" becaue e.g. "abc" === "1*a1*b1*c".
   let result = "";                                   // 2.initial state of result shall be empty str.
@@ -33,7 +31,5 @@ function RunLength(str) {
   return result;                                     // 8. Return the result.
 }
 
-console.log(RunLength(str));
-
 // keep this function call here
-// console.log(LetterCountI(readline()));
+console.log(LetterCountI(readline()));
