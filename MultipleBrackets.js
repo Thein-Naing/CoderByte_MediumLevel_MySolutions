@@ -39,7 +39,7 @@ function MultipleBrackets(str) {
    return 0;
    }
 }                                         /* 11. We have finished checking given string using For Loop. We will continue to check given statement.
-                                                 you can use while loop or ternary operator for if else statements and both methods are fine. */
+                                                 you can use while loop or ternary operator or if else statements and all methods are fine. */
                                           /* 12.(i) if given str contains no brackets, then return 1.
                                                 (ii) if the brackets are correctly matched and each one is accounted for and there are some pairs of brackets
                                                      then return  1 + " "( one white space between marks) + (opening curly bracket + opening square bracket) */
