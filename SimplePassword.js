@@ -20,7 +20,7 @@ Output: true
 Tags
 string manipulation searching hash table back-end Node.js /
 
-//Note: if you have solved Codeland Username Validation easy level challenge, you can solve this challenge.
+// Note: if you have solved Codeland Username Validation easy level challenge, you can solve this challenge.
 
 function SimplePassword(str) { 
 
