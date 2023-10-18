@@ -22,9 +22,7 @@ string manipulation searching hash table back-end Node.js /
 
 // Note: if you have solved Codeland Username Validation easy level challenge, you can solve this challenge.
 
-function SimplePassword(str) { 
 
-  // code goes here  
   /* Given Statement:
      1. It must have a capital letter. 
         so str.match(/[a-zA-Z]/g).
@@ -37,6 +35,9 @@ function SimplePassword(str) {
      5. It must be longer than 7 characters and shorter than 31 characters.
         so str.length > 7 && str.length < 31
     */
+function SimplePassword(str) { 
+
+       // code goes here  
               str = str.toLowerCase(); 
               if ((str.length > 7 && str.length < 31) && (str.match(/[a-zA-Z0-9]/g)) &&       
               !str.includes("password") && str.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ")) {       
