@@ -25,15 +25,15 @@ string manipulation searching hash table back-end Node.js /
 
   /* Given Statement:
      1. It must have a capital letter. 
-        so str.match(/[a-zA-Z]/g).
+        so str = str.match(/[a-zA-Z]/g).
      2. It must contain at least one number.
-        so str.match(/[0-9]/g).
+        so str = str.match(/[0-9]/g).
      3. It must contain a punctuation mark or mathematical symbol.
-        so str.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").
+        so str = str.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ").
      4. It cannot have the word "password" in the string.
-        so !str.includes("password"). we need to convert str to lowercase using str.toLowerCase() method.
+        so str = !str.includes("password"). we need to convert str to lowercase using str.toLowerCase() method.
      5. It must be longer than 7 characters and shorter than 31 characters.
-        so str.length > 7 && str.length < 31
+        so str = str.length > 7 && str.length < 31
     */
 function SimplePassword(str) { 
 
