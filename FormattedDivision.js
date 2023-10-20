@@ -20,11 +20,11 @@ function FormattedDivision(num1,num2) {
 
      /* Notes:  The toFixed() method converts a number to a string.
                 The toFixed() method rounds the string to a specified number of decimals.
-                num.toLocaleString() method will return thousandths place comma at(every three digits) 
-                arr.slice() method will return substring of desired index.
+                num.toLocaleString("en-US") method will return thousandths place comma at(every three digits) 
+                arr.slice() method will return substring of desired index. Here case is decimal index.
                 parseInt() method will convert string to integer. */
   
-      return (parseInt(num1/num2)).toLocaleString('en-US') + ((num1 / num2)%1).toFixed(4).toString().slice(1);
+      return (parseInt(num1/num2)).toLocaleString("en-US") + ((num1 / num2) % 1).toFixed(4).toString().slice(1);
       
     }
 
