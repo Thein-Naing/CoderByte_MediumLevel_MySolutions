@@ -22,7 +22,7 @@ function FormattedDivision(num1,num2) {
                 The toFixed() method rounds the string to a specified number of decimals.
                 num.toLocaleString("en-US") method will return thousandths place comma at(every three digits) 
                 arr.slice() method will return substring of desired index. Here case is decimal index.
-                parseInt() method will convert string to integer. */
+                parseInt method parses a value as a string and returns the first integer. */
   
       return (parseInt(num1/num2)).toLocaleString("en-US") + ((num1 / num2) % 1).toFixed(4).toString().slice(1);
       
