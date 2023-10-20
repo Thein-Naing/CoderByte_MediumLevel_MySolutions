@@ -56,7 +56,8 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/64249370-8f67-4533-a70e-0d0b0325ca30)
 
 `[17]FormattedDivision`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/7bb3fe22-cbef-4e25-bd7b-7a0cfddd7172)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/2422fca3-bcac-419c-b8ef-43eeab98f193)
+
 
 
 
