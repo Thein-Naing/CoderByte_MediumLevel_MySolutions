@@ -55,6 +55,11 @@ This is just information sharing for whom visited to my github page.`
 `[16]SimplePassword`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/64249370-8f67-4533-a70e-0d0b0325ca30)
 
+`[17]FormattedDivision`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/7bb3fe22-cbef-4e25-bd7b-7a0cfddd7172)
+
+
+
 
 
 
