@@ -59,7 +59,8 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/f92d81ab-bf20-4885-b288-6fbd86461639)
 
 `[18]TripleDouble`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/fd38c5eb-08a3-40fd-ad47-21276ae2ef11)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/73407fe3-4f72-4b89-b32b-688e2c97d4c6)
+
 
 
 
