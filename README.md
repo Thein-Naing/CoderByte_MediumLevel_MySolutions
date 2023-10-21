@@ -58,6 +58,10 @@ This is just information sharing for whom visited to my github page.`
 `[17]FormattedDivision`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/f92d81ab-bf20-4885-b288-6fbd86461639)
 
+`[18]TripleDouble`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/fd38c5eb-08a3-40fd-ad47-21276ae2ef11)
+
+
 
 
 
