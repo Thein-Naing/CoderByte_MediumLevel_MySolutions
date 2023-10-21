@@ -19,7 +19,7 @@ searching  */
                 Meaning:  if a straight triple of a number at any place in num1 ----> str1[i-1] = str1[i] = str1[i+1] and 
                           also a straight double of the same number in num2     ---->   str1[i] = str2[j] = str2[j+1] 
                           then return 1. otherwise return 0. 
-      2. Convert given num1 and num2 to str using arr.toString() methodand divide the string into an ordered list of characters using str.split("") method. 
+      2. Convert given num1 and num2 to str using arr.toString() method and divide the string into an ordered list of characters using str.split("") method. 
       3. let 451999277, 41177722899 shall be num1 and num2 for testing purpose. 
       4. We have to use nested For Loop to check each every characters of given num1 is a straight triple of a number at any place in arr1 and 
          also a straight double of the same number in arr2.
@@ -34,7 +34,7 @@ searching  */
   for (let i = 0; i < arr1.length; i++) {
     if (arr1[i] === arr1[i + 1] && arr1[i + 1] === arr1[i -1]) {       // arr1[4] = arr1[5] && arr1[5] = arr1[3]
       for (let j = 0; j < arr2.length; j++) {
-        if (arr2[j] === arr2[j + 1] && arr2[j] === arr1[i]) {          // arr2[9] = arr2[10] && arr2[9] = arr1[3]
+        if (arr2[j] === arr2[j + 1] && arr2[j] === arr1[i]) {          // arr2[9] = arr2[10] && arr2[9] = arr1[4]
           return 1;
         }
       }
