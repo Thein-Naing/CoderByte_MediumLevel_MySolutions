@@ -17,12 +17,14 @@ math fundamentals string manipulation */
 function FormattedDivision(num1,num2) { 
 
   // code goes here  
-
+     /* 1. divide num1 by num2, and return the result as a string with properly formatted commas:
+           so str = (num1 / num2).toLocaleString("en-US")  */
      /* Notes:  The toFixed() method converts a number to a string.
                 The toFixed() method rounds the string to a specified number of decimals.
-                num.toLocaleString("en-US") method will return thousandths place comma at(every three digits) 
+                num.toLocaleString("en-US") method will return thousandths place comma at(every three digits) so called formatted commas.
                 arr.slice() method will return substring of desired index. Here case is decimal index.
-                parseInt method parses a value as a string and returns the first integer. */
+                parseInt method parses a value as a string and returns the first integer. Also parseInt function ignores float values. 
+                if n1 /n2 = 3.6667 then it would still return 3 and ignore .6667 .*/
   
       return (parseInt(num1/num2)).toLocaleString("en-US") + ((num1 / num2) % 1).toFixed(4).toString().slice(1);
       
