@@ -18,7 +18,7 @@ string manipulation recursion */
 
 /* Given Statement: The method is: Only the letters a, b, and c will be given in str and you must take two different adjacent characters and replace it with the third.                   
                     1. So abc can be replaced with two different adjacent characters of a , b and c which are ab,ba,ac,ca,bc,cb. 
-                       Meaning: ab,ba will be replaced with "c", ca, ac will be replaced with "b" and bc, cb will be replaced with "a".
+                       Meaning: ab,ba will be replaced with "c", ac, ca will be replaced with "b" and bc, cb will be replaced with "a".
                     
    Given Statement: This method is done repeatedly until the string cannot be further reduced, and the length of the resulting string is to be outputted.
                     2. We will use regex.test() method with while loop.
