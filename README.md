@@ -65,8 +65,10 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/2d56f926-c284-4109-a7f5-0e3db15dbf47)
 
 `[20]WordSplit.js`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9572327f-0a01-4f1d-8a6e-fc3318dfa1be)
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/09fbbeca-4d30-49bb-b600-560a58021f68)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b4b7d630-745b-47bd-bcf2-9288bb675179)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9c69e00d-5c15-4890-b498-4ed6882dfb03)
+
+
 
 
 
