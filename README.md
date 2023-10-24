@@ -61,6 +61,10 @@ This is just information sharing for whom visited to my github page.`
 `[18]TripleDouble`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/73407fe3-4f72-4b89-b32b-688e2c97d4c6)
 
+`[19]StringReduction`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/2d56f926-c284-4109-a7f5-0e3db15dbf47)
+
+
 
 
 
