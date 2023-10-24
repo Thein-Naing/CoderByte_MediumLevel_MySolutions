@@ -64,6 +64,12 @@ This is just information sharing for whom visited to my github page.`
 `[19]StringReduction`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/2d56f926-c284-4109-a7f5-0e3db15dbf47)
 
+`[20]WordSplit.js`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9572327f-0a01-4f1d-8a6e-fc3318dfa1be)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/09fbbeca-4d30-49bb-b600-560a58021f68)
+
+
+
 
 
 
