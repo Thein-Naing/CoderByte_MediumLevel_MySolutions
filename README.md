@@ -68,6 +68,10 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b4b7d630-745b-47bd-bcf2-9288bb675179)
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/9c69e00d-5c15-4890-b498-4ed6882dfb03)
 
+`[21]NumberEncoding`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b6f16c45-0e7b-49f2-9bdb-651a892c563a)
+
+
 
 
 
