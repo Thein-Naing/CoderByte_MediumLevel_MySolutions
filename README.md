@@ -36,6 +36,7 @@ This is just information sharing for whom visited to my github page.`
 
 `[10]StringScramble`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/491d5594-8afb-4b27-96eb-69cf8f778097)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/85c715a3-fac9-483e-b73c-3f53b6f5c439)
 
 `[11]DashInsertII`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/8facf328-a87e-414e-bcea-f74ed6a05311)
