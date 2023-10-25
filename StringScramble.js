@@ -17,7 +17,7 @@ for (let i = 0; i < str2.length; i++) {           // 1. loop through str2 using 
                                                                  str1.indexOf(4) === str2.CharAt(3) e.t.c. */
 
     if (str1.indexOf(str2.charAt(i)) !== -1) {   // 3. if a portion of str1 characters were found in str2 characters.(str1.indexOf functions is to return -1 when the character isn't found in str2.)
-    // if (str1.includes(str2.charAt(i)) {       // 3A. str1.includes(str2.charAt(i))  and str1.indexOf(str2.charAt(i)) !== -1)  are same meaning and you can use any method.
+    // if (str1.includes(str2.charAt(i))) {       // 3A. str1.includes(str2.charAt(i))  and str1.indexOf(str2.charAt(i)) !== -1)  are same meaning and you can use any method.
                                                    
      str1 = str1.replace(str2[i], "");           // 4. then str1 will be replaced with rearranged str2 characters using str.replace method.
     
