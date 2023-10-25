@@ -72,6 +72,10 @@ This is just information sharing for whom visited to my github page.`
 `[21]NumberEncoding`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b6f16c45-0e7b-49f2-9bdb-651a892c563a)
 
+`[22]Distinct List`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/25815243-2c87-4c75-9a96-23f9d55bac31)
+
+
 
 
 
