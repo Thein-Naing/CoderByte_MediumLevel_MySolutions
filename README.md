@@ -23,7 +23,7 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/a95deb41-6357-4701-a46d-e3b680cb6329)
 
 `[6]Primes`
-![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/e3224edf-2d2a-48b9-b32c-b25b3994a69b)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/cf83d9ef-4218-4b3b-a0a8-3678c5329f7c)
 
 `[7]ThreeFiveMultiples`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/e9c898b2-5238-4613-82a9-22c03b988af3)
