@@ -50,3 +50,20 @@ function CountingMinutes(str) {
    
 // keep this function call here 
 console.log(CountingMinutes(readline()));
+
+
+// Alternative Method
+function CountingMinutes(str) {
+  var times = str.replace(/pm/gi,":12").replace(/am/gi,":00").split("-");
+  var start = times[0].split(":");
+  var startTime = (parseInt(start[0]) + parseInt(start[2])) * 60 + parseInt(start[1]);
+  var finish = times[1].split(":");
+  var finishTime = (parseInt(finish[0]) + parseInt(finish[2])) * 60 + parseInt(finish[1]);
+
+  if (startTime > finishTime) {
+    finishTime += (24*60);
+  }
+
+  return finishTime - startTime;
+}
+
