@@ -36,10 +36,10 @@ function FormattedDivision(num1,num2) {
         4. Example: num1 = 123456789, num2 = 10000, then  console.log(parseInt(num1 / num2)) === 12345
                                                           console.log(parseInt(num1 / num2).toLocaleString("en-US")) === 12,345
                                                           console.log((num1 / num2) % 1) === 0.6789000000007945          
-                                                          console.log( ((num1 / num2) % 1).toFixed(4).toString().slice(1));  === .6789      */
+                                                          console.log((String(num1 / num2) % 1).toFixed(4).slice(1));  === .6789      */
    
               
-           return (parseInt(num1/num2)).toLocaleString("en-US") + ((num1 / num2) % 1).toFixed(4).toString().slice(1);
+           return (parseInt(num1/num2)).toLocaleString("en-US") + (String(num1 / num2) % 1).toFixed(4).slice(1));
         
     }
 
