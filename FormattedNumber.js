@@ -20,8 +20,8 @@ function FormattedNumber(strArr) {
     // 2. If it is matched then return true, otherwise return false.
     // 3. console.log(["0.232567"][0]);                                         // ["0.232567"][0] = 0.235567;
     // 4. console.log(["2,567.00.2"][0]);                                       // ["2,567.00.2"][0] = 2,567.00.2;
-    // 5. console.log(strArr[0].match(/\d{3}(,\d{3})*(\.\d+)?/)[0])             // 0.232567
-    // 6. console.log(strArr[0]);                                               // 2,567.00.2;
+    // 5. console.log(strArr[0].match(/\d{3}(,\d{3})*(\.\d+)?/)[0])             // 0.232567 ===  0.235567 (matched)
+    // 6. console.log(strArr[0].match(/\d{3}(,\d{3})*(\.\d+)?/)[0])             // 2,567.00 !== 2,567.00.2; (not matched)
 
  return strArr[0] === strArr[0].match(/\d{1,3}(,\d{3})*(\.\d+)?/)[0]? true : false;
   }
