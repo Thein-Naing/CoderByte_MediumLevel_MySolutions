@@ -79,6 +79,12 @@ This is just information sharing for whom visited to my github page.`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/18e80e98-e25b-44a8-b48e-77611153c4cb)
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/570c0f4d-6c25-4950-a773-377e1bf3559f)
 
+`[24]BinaryConverter`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/d6cc4073-ce54-45d9-aa30-ee198d47aa95)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/7014ba5b-6bc5-4beb-8faa-f5f864d8e49a)
+
+
+
 
 
 
