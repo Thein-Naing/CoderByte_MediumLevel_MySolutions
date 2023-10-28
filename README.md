@@ -77,6 +77,8 @@ This is just information sharing for whom visited to my github page.`
 
 `[23]FormattedNumber`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/18e80e98-e25b-44a8-b48e-77611153c4cb)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/570c0f4d-6c25-4950-a773-377e1bf3559f)
+
 
 
 
