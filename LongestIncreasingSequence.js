@@ -10,25 +10,30 @@ and there can be several different subsequences. For example: if arr is [4, 3, 5
 then a possible LIS is [3, 5, 6], and another is [1, 6]. For this input,  
 your program should return 3 because that is the length of the longest increasing subsequence. */
 
+
+// Note: This solution got only 9 marks over 10 marks failing 1 test case.
+
 function LongestIncreasingSequence(arr) { 
 
   // code goes here  
-  let longestLIS = 1;
-  let initialLIS = 1; 
+  let longestLIS = 1;                                // 1. Any initialLIS can start from anywhere of arr.
+  let initialLIS = 1;                                // 2. Initial state of  initialLIS and longestLIS value shall be "1".
 
-      for (let i = 0; i < arr.length; i++) {
-     if ( arr[i-1] < arr[i]) {
+      for (let i = 0; i < arr.length; i++) {         // 3. Loop through the given arr and check each every character is greater than or less than before or after character.
+     if ( arr[i-1] < arr[i]) {                       // 4. If a character is less the character after , the update initialLIS by incrementin 1.
        initialLIS++;
-     } else {
+       } else {                                      // 5. Otherwise initialLIS value remain same as initial state.
        initialLIS;
-     }
-  longestLIS = Math.max(initialLIS, longestLIS)
-   }
-   return longestLIS;
+       }
+
+    }
+  
+    return longestLIS = Math.max(initialLIS, longestLIS)   // 6. Return longestLIS value by finding maximum length of initialLIS using Mtah.max function call on initialLIS and longestLIS.
 }
    
 // keep this function call here 
 console.log(LongestIncreasingSequence(readline()));
+
 
 
 
