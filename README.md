@@ -75,6 +75,9 @@ This is just information sharing for whom visited to my github page.`
 `[22]Distinct List`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/25815243-2c87-4c75-9a96-23f9d55bac31)
 
+`[23]FormattedNumber`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/67041526-9f44-42fd-9bc5-4a658c544937)
+
 
 
 
