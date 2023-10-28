@@ -10,13 +10,13 @@ and there can be several different subsequences. For example: if arr is [4, 3, 5
 then a possible LIS is [3, 5, 6], and another is [1, 6]. For this input,  
 your program should return 3 because that is the length of the longest increasing subsequence. */
 
+function LongestIncreasingSequence(arr) { 
+
   // code goes here  
   let longestLIS = 1;
   let initialLIS = 1; 
-  if (arr.length === 0) {
-    return 0;
-  } 
-   for (let i = 1; i < arr.length; i++) {
+
+      for (let i = 0; i < arr.length; i++) {
      if ( arr[i-1] < arr[i]) {
        initialLIS++;
      } else {
@@ -29,6 +29,8 @@ your program should return 3 because that is the length of the longest increasin
    
 // keep this function call here 
 console.log(LongestIncreasingSequence(readline()));
+
+
 
 
 // ### other solution: clean and clear code.(not mine)
