@@ -35,7 +35,7 @@ power − It is the power of the first parameter. We will pass different values 
 
  function BinaryConverter(str) { 
        
-           return parseInt(str, 2);
+           return parseInt(str, 2);               // 1. Typical equation for binary convertion.
 }
 
 console.log( BinaryConverter( readline()));
