@@ -21,7 +21,7 @@ for (let i = 2;  i < num; i++) {   /*4. so we will loop through starting from 2 
    }
       return true;                  // 5. Otherwise it is not divisible and it is prime number.
       
- }
+ 
 }
    
 // keep this function call here 
