@@ -86,6 +86,9 @@ This is just information sharing for whom visited to my github page.`
 `[25]OffBinary`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/2aabb540-bf7e-4b6c-8ca6-3e0b02c3e3af)
 
+`[26]FibonacciChecker`
+![image](https://github.com/Thein-Naing/Coderbyte_EasyLevel_MySolutions/assets/117463446/07a9da81-2293-4552-8859-845063a3a470)
+
 
 
 
