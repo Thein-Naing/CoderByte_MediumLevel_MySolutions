@@ -95,6 +95,12 @@ This is just information sharing for whom visited to my github page.`
 `[28]CountingMinutes.js
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/0384039d-6b9a-4c3b-a614-ae31cc348baf)
 
+`[29]EventPairs`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/087ce020-ea31-4b14-975f-fee8d4bd9bda)
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/7bcb12d6-9116-490d-8d47-60f0487c13f6)
+
+
+
 
 
 
