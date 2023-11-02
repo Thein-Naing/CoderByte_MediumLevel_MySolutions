@@ -92,6 +92,10 @@ This is just information sharing for whom visited to my github page.`
 `[27}PalindromicSubstring`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b416c8df-c797-460e-85fd-7df9ab9133b3)
 
+`[28]CountingMinutes.js
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/0384039d-6b9a-4c3b-a614-ae31cc348baf)
+
+
 
 
 
