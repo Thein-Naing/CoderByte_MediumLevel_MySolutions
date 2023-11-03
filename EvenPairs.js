@@ -18,7 +18,7 @@ searching */
 /* Solution Note:             1. d+ regular expression is a pattern that matches one or more of the character "d" followed by any number of characters.
                                  The "d" character is a literal character that matches itself, and the "+" symbol indicates that the previous character 
                                  should be matched one or more times.
-                              2. Meaning:  Hey regex! find if each and every following number is sequence of 2, 4, 6, 8 for current number sequences of 0,1,2,3,4,5,6,7,8,9.
+                              2. Meaning:  Hey regex! find if each and every following number is sequence of 2, 4, 6, 8(a pair of adjacent for even numbers exists anywhere) in current number string of 0,1,2,3,4,5,6,7,8,9.
                                            if you found it then return true otherwise return false. This method passes all caes and runtime is also O(n).  */
 
 function EvenPairs(str) { 
