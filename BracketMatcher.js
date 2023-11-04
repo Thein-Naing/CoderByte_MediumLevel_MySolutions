@@ -35,7 +35,7 @@ console.log(BracketMatcher(readline()));
  
 // while loop method for step 8 and 9.
 
-//   while ( left === right) {              /* 8. if quantity of left and right are same, then the brackets are correctly matched and return 1. */
+//   while ( open === close) {              /* 8. if quantity of left and right are same, then the brackets are correctly matched and return 1. */
 //              return 1; 
 //       }                                  /* 9. otherwise quantity of open and close are not the same.so return "zero". */
 //              return 0;
