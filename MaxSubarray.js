@@ -35,7 +35,6 @@ array dynamic programming Google video */
       console.log(maxSum);   //    
         1, 2, 3,, 5, 7, 8 
         8      */   
- let arr = [3, -1, -1, 4, 3, -1];
   
   function MaxSubarray(arr) {    
     let maxSum = -Infinity
