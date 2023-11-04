@@ -10,7 +10,7 @@ For example: if str is 4546793 the output should be 454*67-9-3. Don't count zero
 
   /*2.    / / === start and end of regex.
       [13579] === digits [13579] any character of: '1', '3', '5', '7', '9',
-      [2468]  === digits [13579] any character of: '2', '4', '6', '8',   
+      [2468]  === digits [2468] any character of: '2', '4', '6', '8',   
          (?=  === look ahead to see if there is a match for 
       [13579] === digits [13579] any character of: '1', '3', '5', '7', '9 in following number,
        [2468] === digits [2468] any character of: '2', '4', '6', '8', in following number
