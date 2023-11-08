@@ -25,7 +25,7 @@ function EvenPairs(str) {
 
     // code goes here  
     
-      return str.match(/[0-9]\d*[2468]/g) ? true : false;
+      return str.match(/[0-9]\d+[2468]/g) ? true : false;
    
     }
     // keep this function call here 
