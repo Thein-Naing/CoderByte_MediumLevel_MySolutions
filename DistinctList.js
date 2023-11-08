@@ -21,7 +21,7 @@ function DistinctList(arr) {
   return arr.filter((num, index) => arr.indexOf(num) !== index).length;      /* 1. Use arr.filter() method(num and index as arguments) together with arr.indexOf() method and arr.length method.
 }                                                                                  If arr.indexOf(0) ===  0  !== [0,-2,-2,5,5,5][0], then there will be duplicate entries.
                                                                                    Filter this element and find its length and return it. */
-   ts
+   
 // keep this function call here 
 console.log(DistinctList(readline()));
 
