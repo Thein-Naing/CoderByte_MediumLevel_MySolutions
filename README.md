@@ -102,6 +102,10 @@ This is just information sharing for whom visited to my github page.`
 `[30]MaxSubarray`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/b5bd225a-fc68-4bc6-b900-2a97c3a94b44)
 
+`[31]TrappingWater`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/f8e74a81-ffe5-4280-b890-58229b12b292)
+
+
 
 
 
