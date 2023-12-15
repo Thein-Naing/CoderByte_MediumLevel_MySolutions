@@ -105,6 +105,10 @@ This is just information sharing for whom visited to my github page.`
 `[31]TrappingWater`
 ![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/f8e74a81-ffe5-4280-b890-58229b12b292)
 
+`[32]CaesarCipher`
+![image](https://github.com/Thein-Naing/CoderByte_MediumLevel_MySolutions/assets/117463446/d3798f13-1a0c-4b8b-853d-8421241c9266)
+
+
 
 
 
