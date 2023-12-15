@@ -33,7 +33,7 @@ function SwapII(str) {
   return result.join(' ');  
  }          
 
-/* Alternate Solution from Coderbyte. Omly one line.
+/* Alternate Solution from Coderbyte. Only one line.
   return str.replace(/[a-zA-Z]/gi, letter => letter === letter.toUpperCase()? letter.toLowerCase() : letter.toUpperCase()).replace(/(d+)([a-zA-Z]+)(d+)/gi, '$3$2$1');  */
 }
 // keep this function call here 
